@@ -1,0 +1,20 @@
+#hamburger-menu {
+    background: url("../img/hamburger-menu.png") no-repeat center;
+    width: 24px;
+    height: 24px;
+}
+#search-icon {
+    background: url("../img/search.png") no-repeat center;
+    width: 24px;
+    height: 24px;
+}
+#user-icon {
+    background: url("../img/user.png") no-repeat center;
+    width: 24px;
+    height: 24px;
+}
+#shopping-cart-icon {
+    background: url("../img/shopping-cart.png") no-repeat center;
+    width: 24px;
+    height: 24px;
+}
