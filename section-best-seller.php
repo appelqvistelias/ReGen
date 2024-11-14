@@ -10,7 +10,7 @@
         <div class="container">
             <article class="product">
                 <img>
-                <section class="inner-wrapper">
+                <div class="product-inner-wrapper">
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
@@ -24,63 +24,65 @@
                         <div class="tag">Värme</div>
                         <div class="tag">+2</div>
                     </div>
-                </section>
+                </div><!-- product-inner-wrapper -->
             </article>
             <article class="product">
                 <img>
-                <div class="product-colors">
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">+1</span>
-                </div>
-                <h4 class="product-name">Tält</h4>
-                <p class="product-price">600kr</p>
-                <div class="product-tags">
-                    <span class="tag">Värme</span>
-                    <span class="tag">+2</span>
-                </div>
+                <div class="product-inner-wrapper">
+                    <div class="product-colors">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color">+1</div>
+                    </div>
+                    <h4 class="product-name">Tält</h4>
+                    <p class="product-price">600kr</p>
+                    <div class="product-tags">
+                        <div class="tag">Värme</div>
+                        <div class="tag">+2</div>
+                    </div>
+                </div><!-- product-inner-wrapper -->
             </article>
+
             <article class="product">
                 <img>
-                <div class="product-colors">
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">+1</span>
-                </div>
-                <h4 class="product-name">Tält</h4>
-                <p class="product-price">600kr</p>
-                <div class="product-tags">
-                    <span class="tag">Värme</span>
-                    <span class="tag">+2</span>
-                </div>
+                <div class="product-inner-wrapper">
+                    <div class="product-colors">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color">+1</div>
+                    </div>
+                    <h4 class="product-name">Tält</h4>
+                    <p class="product-price">600kr</p>
+                    <div class="product-tags">
+                        <div class="tag">Värme</div>
+                        <div class="tag">+2</div>
+                    </div>
+                </div><!-- product-inner-wrapper -->
             </article>
+
             <article class="product">
                 <img>
-                <div class="product-colors">
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">+1</span>
-                </div>
-                <h4 class="product-name">Tält</h4>
-                <p class="product-price">600kr</p>
-                <div class="product-tags">
-                    <span class="tag">Värme</span>
-                    <span class="tag">+2</span>
-                </div>
+                <div class="product-inner-wrapper">
+                    <div class="product-colors">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color">+1</div>
+                    </div>
+                    <h4 class="product-name">Tält</h4>
+                    <p class="product-price">600kr</p>
+                    <div class="product-tags">
+                        <div class="tag">Värme</div>
+                        <div class="tag">+2</div>
+                    </div>
+                </div><!-- product-inner-wrapper -->
             </article>
         </div><!-- .container -->
-    </div><!-- .inner-wrapper -->
-</section>
-
-
-<section id="best-sellers">
-    <div class="inner-wrapper">
         <hgroup>
             <h2>Nya artiklar</h2>
             <div class="arrows">
@@ -104,5 +106,5 @@
                 <span class="tag">+2</span>
             </div>
         </article>
-    </div>
+    </div><!-- .inner-wrapper -->
 </section>

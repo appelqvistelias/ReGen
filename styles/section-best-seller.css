@@ -7,15 +7,6 @@ hgroup {
     }
 }
 
-#best-sellers .inner-wrapper {
-    padding: 0 3.2rem;
-
-    &:after {
-        content:"";
-        display: block;
-        border-bottom: 1px solid #959595;
-    }
-}
 
 .container {
     overflow-y: auto;
@@ -46,9 +37,12 @@ hgroup {
             height: 18rem;
         }
 
+        .product-inner-wrapper {
+            padding: 1.2rem;
+        }
+
         .product-colors {
             display: flex;
-            padding: 1.2rem;
 
             .color {
                 border-radius: 50%;
@@ -61,6 +55,16 @@ hgroup {
                     background: transparent;
                 }
             }
+        }
+
+        h4 {
+            padding: .8rem 0;
+        }
+
+        .product-price {
+            padding-bottom: 1.6rem;
+            border-bottom: 1px solid #959595;
+            margin-bottom: 1.6rem;
         }
     }
 
