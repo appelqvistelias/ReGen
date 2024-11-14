@@ -1,0 +1,67 @@
+.inner-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.2rem;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.menu-paragraph {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.6rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10.4rem;
+    height: 2.4rem;
+}
+
+.search-field {
+    background-color: #F4F4F4;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    padding-top: 1.1rem;
+    padding-bottom: 1.1rem;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.search {
+    background-color: #F4F4F4;
+    border: none;
+    width: 100%;
+}
+
+.search-btn {
+    background: url("../img/search.svg") no-repeat center;
+    border: none;
+    height: 2.4rem;
+    width: 2.4rem;
+}
