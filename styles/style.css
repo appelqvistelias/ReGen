@@ -1,26 +1,26 @@
 #hamburger-menu {
-    background: url("../img/hamburger-menu.png") no-repeat center;
+    background: url("../img/hamburger-menu.svg") no-repeat center;
     width: 24px;
     height: 24px;
 }
 #search-icon {
-    background: url("../img/search.png") no-repeat center;
+    background: url("../img/search.svg") no-repeat center;
     width: 24px;
     height: 24px;
 }
 #user-icon {
-    background: url("../img/user.png") no-repeat center;
+    background: url("../img/user.svg") no-repeat center;
     width: 24px;
     height: 24px;
 }
 #shopping-cart-icon {
-    background: url("../img/shopping-cart.png") no-repeat center;
+    background: url("../img/shopping-cart.svg") no-repeat center;
     width: 24px;
     height: 24px;
 }
 
 #tent-card {
-    background: url("../img/tent-card.png");
+    background: url("../img/tent-card.svg");
     width: 112px;
     height: 123px;
 }
