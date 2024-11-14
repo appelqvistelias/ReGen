@@ -18,3 +18,17 @@
     width: 24px;
     height: 24px;
 }
+
+#tent-card {
+    background: url("../img/tent-card.png");
+    width: 112px;
+    height: 123px;
+}
+
+.item-cards {
+    display: flex;
+    justify-content: space-between;
+    width: 326px;
+    height: 123px;
+    gap: 16px;
+}
