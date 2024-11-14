@@ -20,25 +20,22 @@
 
 <body>
     <header>
-        <div class="inner-wrapper">
-            <div class="logo">
-                <img src="img/regen-logo.svg" alt="regen logo">
+        <div class="logo">
+            <img src="img/regen-logo.svg" alt="regen logo">
+        </div>
+        <nav>
+            <div class="menu">
+                <div id="hamburger-menu"></div>
+                <p class="menu-paragraph">Meny</p>
             </div>
-            <nav>
-                <div class="menu">
-                    <div id="hamburger-menu"></div>
-                    <p class="menu-paragraph">Meny</p>
-                </div>
-                <div class="icon-container">
-                    <div id="globe"></div>
-                    <div id="user-icon"></div>
-                    <div id="shopping-cart-icon"></div>
-                </div>
-            </nav>
-            <div class="search-field">
-                <input class="search" placeholder="Sök..."> <button class="search-btn"></button>
+            <div class="icon-container">
+                <div id="globe"></div>
+                <div id="user-icon"></div>
+                <div id="shopping-cart-icon"></div>
             </div>
-
+        </nav>
+        <div class="search-field">
+            <input class="search" placeholder="Sök..."> <button class="search-btn"></button>
         </div>
 
         <section id="hero" class="hero">
