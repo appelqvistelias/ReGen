@@ -51,6 +51,7 @@ nav {
 
 input::placeholder {
     color: black;
+    font-family: "IBM Plex Sans", sans-serif;
 }
 
 .search {
