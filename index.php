@@ -1,22 +1,7 @@
-<?php require_once(__DIR__ . "/header.php") ?>
+<?php require_once(__DIR__ . "/header.php"); ?>
 
 <main>
-    <section id="categories">
-        <div class="inner-wrapper">
-            <h2>Kategorier</h2>
-            <div class="item-cards">
-                <div class="item-card">
-                    <div id="tent-card"></div>
-                </div>
-                <div class="item-card">
-                    <div id="tent-card"></div>
-                </div>
-                <div class="item-card">
-                    <div id="tent-card"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php require_once(__DIR__ . "/section-categories.php"); ?>
 
     <section>
         <div id="inner-wrapper">
@@ -26,57 +11,7 @@
         </div>
     </section>
 
-
-    <section id="best-sellers">
-        <div class="inner-wrapper">
-            <hgroup>
-                <h2>Bäst säljande</h2>
-                <div class="arrows">&lt; &gt;</div>
-            </hgroup>
-            <article class="product">
-                <img>
-                <div class="product-colors">
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">+1</span>
-                </div>
-                <h4 class="product-name">Tält</h4>
-                <p class="product-price">600kr</p>
-                <div class="product-tags">
-                    <span class="tag">Värme</span>
-                    <span class="tag">+2</span>
-                </div>
-            </article>
-        </div>
-    </section>
-
-
-    <section id="best-sellers">
-        <div class="inner-wrapper">
-            <hgroup>
-                <h2>Nya artiklar</h2>
-                <div class="arrows">&lt; &gt;</div>
-            </hgroup>
-            <article class="product">
-                <img>
-                <div class="product-colors">
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">•</span>
-                    <span class="color">+1</span>
-                </div>
-                <h4 class="product-name">Tält</h4>
-                <p class="product-price">600kr</p>
-                <div class="product-tags">
-                    <span class="tag">Värme</span>
-                    <span class="tag">+2</span>
-                </div>
-            </article>
-        </div>
-    </section>
+    <?php require_once(__DIR__ . "/section-best-seller.php"); ?>
 
     <section>
         <div id="inner-wrapper">
@@ -108,4 +43,4 @@
     </section>
 </main>
 
-<?php require_once(__DIR__ . "/footer.php") ?>
+<?php require_once(__DIR__ . "/footer.php"); ?>
