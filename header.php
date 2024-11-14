@@ -7,6 +7,10 @@
     <link href="styles/global.css" rel="stylesheet">
     <link href="styles/style.css" rel="stylesheet">
     <link href="styles/typography.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+    <link href="styles/section-categories.css" rel="stylesheet">
+    <link href="styles/section-best-seller.css" rel="stylesheet">
     <title>ReGen</title>
 </head>
 
