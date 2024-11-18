@@ -25,6 +25,9 @@ footer {
     padding: 1.6rem;
     border-radius: 0.4rem;
     background-color: #212121;
+}
+
+.footer-drop-down p {
     font-weight: bold;
     font-size: 1.6rem;
 }
