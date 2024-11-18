@@ -5,15 +5,15 @@
         </div>
 
         <div class="details-footer">
-            <details>
-                <summary>Vanliga frågor</summary>
-            </details>
-            <details>
-                <summary>Om ReGen</summary>
-            </details>
+            <div class="footer-drop-down">
+                <p>Vanliga Frågor</p><img src="img/chevron-down-inverted.svg">
+            </div>
+            <div class="footer-drop-down">
+                <p>Om ReGen</p><img src="img/chevron-down-inverted.svg">
+            </div>
         </div>
-        <p class="copyright">&copy; 2024 ReGen. All rights reserved.</p>
     </div>
+    <p class="copyright">&copy; 2024 ReGen. All rights reserved.</p>
 </footer>
 
 <script src="script/script.js"></script>

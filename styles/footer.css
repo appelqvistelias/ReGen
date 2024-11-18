@@ -1,6 +1,6 @@
 footer {
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: var(--black);
     color: var(--white);
@@ -9,7 +9,24 @@ footer {
 }
 
 .details-footer {
+    display: flex;
+    flex-direction: column;
     margin-top: 3.2rem;
     margin-bottom: 3.2rem;
     gap: 1.6rem;
+}
+
+.footer-drop-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 32.6rem;
+    height: 5.6rem;
+    padding: 1.6rem;
+    border-radius: 0.4rem;
+    background-color: #212121;
+}
+
+.copyright {
+    font-size: 1.6rem;
 }
