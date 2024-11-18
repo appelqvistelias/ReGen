@@ -41,8 +41,13 @@
         <section id="hero" class="hero">
             <div class="inner-wrapper">
                 <h1>ReGen: Framtidens mode, idag.</h1>
-                <p>Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten.</p>
-                <a href="#cta" class="cta-button">Vår påverkan</a>
+                <p class="hero-paragraph">Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten.</p>
+                <div class="cta-button">
+                    <a href="#cta">
+                        <p>Vår påverkan</p>
+                    </a>
+                    <img src="img/arrow-up-right.svg">
+                </div>
             </div>
         </section>
     </header>
