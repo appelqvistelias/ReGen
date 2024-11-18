@@ -1,3 +1,20 @@
+:root {
+    --green: #2F3D30;
+    --dark-green: #1E271F;
+    --orange: #EF9F28;
+    --dark-orange: #AA6A0A;
+    --brown: #46270B;
+    --dark-brown: #2D1908;
+    --beige: #FDEFDA;
+    --dark-beige: #A89C8B;
+    --black: #151515;
+    --gray1: #404040;
+    --gray2: #6A6A6A;
+    --gray3: #959595;
+    --gray4: #F0F0F0;
+    --white: #FAFAFA;
+}
+
 * {
     margin: 0;
     padding: 0;
