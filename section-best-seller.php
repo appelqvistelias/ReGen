@@ -11,66 +11,75 @@
             <article class="product">
                 <img>
                 <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
                         <div class="color"></div>
                     </div>
-                    <h4 class="product-name">Tält</h4>
-                    <p class="product-price">600kr</p>
-                    <div class="product-tags">
-                        <div class="tag">Värme</div>
-                        <div class="tag">+2</div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
                     </div>
                 </div><!-- product-inner-wrapper -->
             </article>
             <article class="product">
                 <img>
                 <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
                         <div class="color"></div>
                     </div>
-                    <h4 class="product-name">Tält</h4>
-                    <p class="product-price">600kr</p>
-                    <div class="product-tags">
-                        <div class="tag">Värme</div>
-                        <div class="tag">+2</div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
                     </div>
                 </div><!-- product-inner-wrapper -->
             </article>
-
             <article class="product">
                 <img>
                 <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
                         <div class="color"></div>
                     </div>
-                    <h4 class="product-name">Tält</h4>
-                    <p class="product-price">600kr</p>
-                    <div class="product-tags">
-                        <div class="tag">Värme</div>
-                        <div class="tag">+2</div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
                     </div>
                 </div><!-- product-inner-wrapper -->
             </article>
-
             <article class="product">
                 <img>
                 <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
                         <div class="color"></div>
                     </div>
-                    <h4 class="product-name">Tält</h4>
-                    <p class="product-price">600kr</p>
-                    <div class="product-tags">
-                        <div class="tag">Värme</div>
-                        <div class="tag">+2</div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
+                    </div>
+                </div><!-- product-inner-wrapper -->
+            </article>
+            <article class="product">
+                <img>
+                <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
+                    <div class="product-colors">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
                     </div>
                 </div><!-- product-inner-wrapper -->
             </article>
@@ -90,66 +99,75 @@
             <article class="product">
                 <img>
                 <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
                         <div class="color"></div>
                     </div>
-                    <h4 class="product-name">Tält</h4>
-                    <p class="product-price">600kr</p>
-                    <div class="product-tags">
-                        <div class="tag">Värme</div>
-                        <div class="tag">+2</div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
                     </div>
                 </div><!-- product-inner-wrapper -->
             </article>
             <article class="product">
                 <img>
                 <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
                         <div class="color"></div>
                     </div>
-                    <h4 class="product-name">Tält</h4>
-                    <p class="product-price">600kr</p>
-                    <div class="product-tags">
-                        <div class="tag">Värme</div>
-                        <div class="tag">+2</div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
                     </div>
                 </div><!-- product-inner-wrapper -->
             </article>
-
             <article class="product">
                 <img>
                 <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
                         <div class="color"></div>
                     </div>
-                    <h4 class="product-name">Tält</h4>
-                    <p class="product-price">600kr</p>
-                    <div class="product-tags">
-                        <div class="tag">Värme</div>
-                        <div class="tag">+2</div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
                     </div>
                 </div><!-- product-inner-wrapper -->
             </article>
-
             <article class="product">
                 <img>
                 <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
                     <div class="product-colors">
                         <div class="color"></div>
                         <div class="color"></div>
                         <div class="color"></div>
                     </div>
-                    <h4 class="product-name">Tält</h4>
-                    <p class="product-price">600kr</p>
-                    <div class="product-tags">
-                        <div class="tag">Värme</div>
-                        <div class="tag">+2</div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
+                    </div>
+                </div><!-- product-inner-wrapper -->
+            </article>
+            <article class="product">
+                <img>
+                <div class="product-inner-wrapper">
+                    <h3 class="product-name">Tält ECO-05</h3>
+                    <h2 class="product-price">600kr</h2>
+                    <div class="product-colors">
+                        <div class="color"></div>
+                        <div class="color"></div>
+                        <div class="color"></div>
+                    </div>
+                    <div class="product-add-btn">
+                        <img src="/img/plus.svg" alt="add to cart symbol" /> Lägg till
                     </div>
                 </div><!-- product-inner-wrapper -->
             </article>

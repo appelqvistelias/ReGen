@@ -1,9 +1,22 @@
+section#best-sellers {
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+section#new-articles {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+}
+
+
 hgroup {
     display: flex;
     justify-content: space-between;
 
-    img {
-        width: 1.6rem;
+    .arrows {
+        .prev-btn,
+        .next-btn {
+            width: 3.2rem;
+        }
     }
 }
 
@@ -12,14 +25,14 @@ hgroup {
     display: flex;
     gap: 1rem;
     scroll-snap-type: x mandatory;
-    padding-bottom: 3.2rem;
+    padding: 3.2rem 0;
     margin-bottom: 3.2rem;
 
-    &:after {
+    /* &:after {
         content:"";
         display: block;
         border-bottom: 1px solid #959595;
-    }
+    } */
 
     article.product {
         height: 31.9rem;
@@ -33,7 +46,7 @@ hgroup {
             margin-right: -.4rem;
         }
 
-        img {
+        img { /* image placeholder */
             display: block;
             background: #ccc;
             width: 100%;
@@ -41,43 +54,61 @@ hgroup {
         }
 
         .product-inner-wrapper {
-            padding: 1.2rem;
+            padding: 1rem;
         }
 
         .product-colors {
             display: flex;
+            margin: 1rem 0;
 
             .color {
                 border-radius: 50%;
-                background: grey;
                 width: 1.5rem;
                 height: 1.5rem;
                 margin-right: .6rem;
 
                 &:nth-of-type(1) {
-                    background: #FDEFDA; /* beige */
-                    border: 1px solid #46270B; /* brown */
+                    background: var(--beige);
+                    border: 1px solid var(--brown);
                 }
                 &:nth-of-type(2) {
-                    background: #46270B; /* brown */
-                    border: 1px solid #46270B; /* brown */
+                    background: var(--brown);
+                    border: 1px solid var(--brown);
                 }
                 &:nth-of-type(3) {
-                    background: #2F3D30; /* green */
-                    border: 1px solid #2F3D30; /* green */
+                    background: var(--green);
+                    border: 1px solid var(--green);
                 }
             }
         }
 
-        h4 {
-            padding: .8rem 0;
+        .product-add-btn {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 1.5rem;
+
+            img {
+                background: var(--green);
+                padding: 0.5rem;
+                border-radius: 0.25rem;
+                width: 2rem;
+                height: 2rem;
+            }
         }
 
+        .product-name,
         .product-price {
+            font-weight: 600;
+        }
+        .product-price {
+            padding: .05rem 0;
+        }
+
+        /* .product-price {
             padding-bottom: 1.6rem;
             border-bottom: 1px solid #959595;
             margin-bottom: 1.6rem;
-        }
+        } */
     }
 
 }
