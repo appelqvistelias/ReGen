@@ -38,7 +38,6 @@
         <div class="search-field">
             <input class="search" placeholder="Sök..."> <button class="search-btn"></button>
         </div>
-
         <section id="hero" class="hero">
             <div class="inner-wrapper">
                 <h1>ReGen: Framtidens mode, idag.</h1>
