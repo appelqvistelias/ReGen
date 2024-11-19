@@ -4,7 +4,7 @@
     <?php require_once(__DIR__ . "/section-categories.php"); ?>
 
     <section>
-        <div id="inner-wrapper">
+        <div class="inner-wrapper">
             <h2>Hållbarhet något</h2>
             <p>Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten.</p>
             <a href="#cta" class="cta-button">Hållbarhet</a>
@@ -34,11 +34,15 @@
         </div>
     </section>
 
-    <section>
-        <div id="inner-wrapper">
-            <h3>Få 10% rabatt på ditt nästa köp.</h3>
-            <p>Skriv in dig på vårat nyhetsbrev, där vi gör utskick om nya kollektioner.</p>
-            <label>Email*</label><input type="email" placeholder="john.doe@email.com">
+    <section id="newsletter-signup">
+        <div class="inner-wrapper">
+            <h3 class="newsletter-signup-h3">Få 10% rabatt på ditt nästa köp.</h3>
+            <p class="newsletter-signup-paragraph">Skriv in dig på vårat nyhetsbrev, där vi gör utskick om nya kollektioner.</p>
+            <label class="newsletter-signup-label">Email*</label>
+            <div class="newsletter-signup-email-input-box">
+                <input class="newsletter-signup-input" type="email" placeholder="john.doe@email.com">
+                <button class="email-signup-btn"></button>
+            </div>
         </div>
     </section>
 </main>

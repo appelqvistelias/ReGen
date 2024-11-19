@@ -1,0 +1,47 @@
+#newsletter-signup {
+    background-color: #212121;
+    color: var(--white);
+    padding-top: 9.6rem;
+    padding-bottom: 9.6rem;
+}
+
+.newsletter-signup-h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: none;
+    margin-bottom: 1.8rem;
+}
+
+.newsletter-signup-paragraph {
+    font-size: 1.6rem;
+    margin-bottom: 4.8rem;
+}
+
+.newsletter-signup-label {
+    display: block;
+    font-size: 1.6rem;
+}
+
+.newsletter-signup-email-input-box {
+    background-color: #898989;
+    font-family: "IBM Plex Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 32.6rem;
+    height: 4rem;
+    padding-left: 0.8rem;
+    border-radius: 0.4rem;
+}
+
+.newsletter-signup-input {
+    border: 0;
+    background-color: #898989;
+    width: 100%;
+}
+
+.email-signup-btn {
+    background: url("../img/arrow-up-right-inverted.svg") no-repeat center;
+    border: none;
+    height: 2.4rem;
+    width: 2.4rem;
+}
