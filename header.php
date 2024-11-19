@@ -50,5 +50,6 @@
                     <img src="img/arrow-up-right.svg">
                 </div>
             </div>
+            <img src="https://s3-alpha-sig.figma.com/img/d9c8/7231/895cc5d6b64dd6c4f5a50a59d236c2a0?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PweOJKGUSlZkc6w0xoI1av0sXgo1zLZ5ekKgzySQp~41HzpXPzLDsNoiQGVxVxVO5JOWy4~m36UDbdoKWLbGzXtjQnNeHgriwCAaHHCpTtrHWJeYs2YFszsQ6XEHy2OwO55X8OIjCQI3w7HMXodubg3nkZf7T2Vu2a8plu-BefTyIYY1NqvZhxmWmTXFRHY~TN7wfNrgJeRuk2oAFitoiRgDM~bplouBBVnKK6s6wWeCgkGs80~w34ADUSMSb0mAvH8rxMsPujSH4ePmteLg3AXGZFLmcofteL13hgOxDzNemzgpwYc3azeHNaWmuAQyHVZ3vG6SMcn6Z-XPYGjQpA__" class="section-bg" alt="" />
         </section>
     </header>

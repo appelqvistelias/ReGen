@@ -1,7 +1,7 @@
 <footer>
     <div class="inner-wrapper">
         <div class="logo">
-            <img src="img/Regen-logo-inverted.svg" alt="regen logo">
+            <img src="img/Regen-logo-orange.svg" alt="regen logo">
         </div>
 
         <div class="details-footer">

@@ -1,4 +1,8 @@
-header img {
+header .logo {
+    background: var(--green);
+}
+
+header .logo img {
     filter: invert(1);
 }
 
@@ -7,7 +11,6 @@ header img {
     justify-content: center;
     align-items: center;
     height: 3.2rem;
-    background: var(--green);
 }
 
 .menu {
@@ -108,5 +111,6 @@ input::placeholder {
     width: 22.1rem;
     height: 4.2rem;
     background-color: var(--white);
+    background: var(--orange);
     border-radius: 0.4rem;
 }

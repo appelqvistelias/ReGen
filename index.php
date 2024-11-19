@@ -12,6 +12,7 @@
                 <img src="img/arrow-up-right.svg">
             </a>
         </div>
+        <img src="https://s3-alpha-sig.figma.com/img/6976/68d4/697ee2d51709a7b32ea84e55eebb14ba?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CCK53G6P5fu~Yd7kHrlxdc6mn31Lw4v2jHhhNLmLx-lTZIYrmdRdhWlmwpQVUxO6u71a5N-UDYkTBJ7665RGnKSYKoLSnLQRGoFRlKIE~9OIkgDOb1F32kP66yOwlmj321oyEZDNIfXSPDtO4deUFKs~KSFsxS0KPiEKG8P6TwLe5QVH312otgAJVLJecA6Tx5K6RuHYuQHdCDl4tS9sMNDIn2ZaS8AJ15uL21N1tYCmRZnfv~CVDt-q5vjuH5nYojL7x5NfROeRCMPDbjCaPLai-jTs3YQKD-UfDmdGQOtRJujiMkXr-DH6Ja54Z01RqHFWuiv38RD83Bi7XPOvpg__" class="section-bg" alt="" />
     </section>
 
     <?php require_once(__DIR__ . "/section-best-seller.php"); ?>
@@ -39,7 +40,7 @@
 
     <section id="newsletter-signup">
         <div class="inner-wrapper">
-            <h3 class="newsletter-signup-h3">Få 10% rabatt på ditt nästa köp.</h3>
+            <h3 class="newsletter-signup-h3">Få <span class="text-orange">10% rabatt</span> på ditt nästa köp.</h3>
             <p class="newsletter-signup-paragraph">Skriv in dig på vårat nyhetsbrev, där vi gör utskick om nya kollektioner.</p>
             <label class="newsletter-signup-label">Email*</label>
             <div class="newsletter-signup-email-input-box">
@@ -47,6 +48,7 @@
                 <button class="email-signup-btn"></button>
             </div>
         </div>
+        <img src="https://s3-alpha-sig.figma.com/img/2b05/292f/51e3faf394593b6510c5426f56c131bf?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WrYoIZKvUu5YGrjRx-RyvaSq-Sy1erq3shUYX~VLoF~2r1GwcvQ7FgVqmx1nTwTxJbJ-FO~D--ggolpCx3ooaN~QDWsm5YtUasSnw~VCZmDHzVb3YeZDnsazEGkhE04c7LbbVim6xOy-e1eELadEOjPrJx9AV3kxvcN~7BhYvyDlOWsmsHQs3dy6xhF1OBTzYsfRMRnoxNS1t9yeHKAAh-HjPWcEZapKvUM7fy0BGWvNTwhSBeMLKnQNHBC83Xb~jyw8xzehy2UoisGwjHqxU3sl6O4mPWCNya--btMpHjwfk2IQImmfh9oVL3HmzoRbueiy7L2OQZGMNsQL1A4lqQ__" class="section-bg" alt="" />
     </section>
 </main>
 
