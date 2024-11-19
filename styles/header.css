@@ -3,7 +3,7 @@ header {
     .logo, nav {
         position: fixed;
         top: 0;
-        z-index: 2;
+        z-index: 500;
         width: 100%;
     }
     nav {
@@ -11,7 +11,7 @@ header {
     }
 
     .search-field {
-        margin-top: calc(3.2rem + 5.8rem); /* height of nav + menu (chansade lite) */
+        margin-top: calc(3.2rem + 5.6rem); /* height of nav + menu */
     }
 }
 
