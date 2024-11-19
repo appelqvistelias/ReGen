@@ -9,6 +9,11 @@ section#best-sellers {
 section#new-articles {
     padding-top: 2rem;
     padding-bottom: 6rem;
+
+    hgroup {
+        padding-top: 6.4rem;
+        border-top: 1px solid var(--gray3);
+    }
 }
 
 

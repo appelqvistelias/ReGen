@@ -1,0 +1,10 @@
+#categories {
+    text-align: center;
+
+    #tent-card {
+        background: url("../img/tent-card.svg") no-repeat center;
+        width: 112px;
+        height: 123px;
+    }
+}
+

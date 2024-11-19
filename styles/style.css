@@ -1,21 +1,5 @@
 
 
-
-.item-cards {
-    display: flex;
-    justify-content: space-between;
-    width: 326px;
-    height: 123px;
-    gap: 16px;
-}
-#tent-card {
-    background: url("../img/tent-card.svg") no-repeat center;
-    width: 112px;
-    height: 123px;
-}
-
-
-
 #icons {
     padding: 9.6rem 0;
     text-align: center;

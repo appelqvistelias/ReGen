@@ -2,7 +2,7 @@
 #sustainability, 
 #newsletter-signup {
     position: relative;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 52.84%, #000 100.02%);
+    background: linear-gradient(0deg, rgba(47, 61, 48, 0.20) 0%, rgba(47, 61, 48, 0.20) 100%);
 
     img.section-bg {
         position: absolute;
@@ -74,4 +74,5 @@ span.text-orange {
     height: 4rem;
     width: 4rem;
     border-radius: 0.4rem;
+    flex-shrink: 0;
 }
