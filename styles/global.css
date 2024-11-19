@@ -19,6 +19,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -32,4 +33,5 @@ a {
 
 .inner-wrapper {
     padding: 0 3.2rem;
+    max-width: 1200px;
 }
