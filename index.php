@@ -5,8 +5,8 @@
 
     <section id="sustainability">
         <div class="inner-wrapper">
-            <h2>Hållbarhet något</h2>
-            <p>Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten.</p>
+            <h2>Mode som ReGenererar</h2>
+            <p>Utforska en hållbar framtid där stil möter ansvar. Regen skapar produkter som inte bara inspirerar utan också gör skillnad.</p>
             <a href="#cta" class="cta-button">
                 Hållbarhet
                 <img src="img/arrow-up-right.svg">
