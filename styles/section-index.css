@@ -23,6 +23,8 @@
 }
 
 .newsletter-signup-email-input-box {
+    display: flex;
+    align-items: center;
     background-color: #898989;
     font-family: "IBM Plex Sans", sans-serif;
     display: flex;
@@ -41,7 +43,9 @@
 
 .email-signup-btn {
     background: url("../img/arrow-up-right-inverted.svg") no-repeat center;
+    background-color: #383838;
     border: none;
-    height: 2.4rem;
-    width: 2.4rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 0.4rem;
 }
