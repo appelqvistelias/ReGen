@@ -36,24 +36,53 @@
 
 
 #icons {
-    padding: 6rem 0;
+    padding: 9.6rem 0;
     text-align: center;
+    background: var(--green);
+    color: var(--beige);
 
     .item {
-        max-width: 12rem;
-        margin: 0 auto;
+        padding-bottom: 6.4rem;
+        border-bottom: .15rem solid var(--dark-green);
+
+        &:last-of-type {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
     }
     img {
-            background: grey;
-            width: 4rem;
-            height: 4rem;
-            display: block;
-            margin: 0 auto 1rem;
+        background: var(--dark-green);
+        width: 2.4rem;
+        height: 2.4rem;
+        padding: 3.2rem;
+        display: block;
+        margin: 0 auto 1.6rem;
+        border-radius: 50%;
+    }
+    p {
+        max-width: 19rem;
+        margin: 0 auto;
     }
 }
 .flex {
     display: flex;
+    gap: 6.4rem;
     flex-direction: column;
-    gap: 3rem;
-    margin: 0 auto;
+        margin: 0 auto;
+}
+
+@media only screen and (min-width: 390px) {
+    .flex {
+        flex-direction: row;
+    }
+    .item {
+        padding-right: 6.4rem;
+        border-bottom: none;
+        border-right: .15rem solid var(--dark-green);
+
+        &:last-of-type {
+            padding-right: 0;
+            border-right: none;
+        }
+    }
 }
