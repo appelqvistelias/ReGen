@@ -11,6 +11,7 @@
     <link href="styles/footer.css" rel="stylesheet">
     <link href="styles/section-categories.css" rel="stylesheet">
     <link href="styles/section-best-seller.css" rel="stylesheet">
+    <link href="styles/section-index.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
