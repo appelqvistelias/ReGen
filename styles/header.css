@@ -1,8 +1,13 @@
+header img {
+    filter: invert(1);
+}
+
 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3.2rem;
+    background: var(--green);
 }
 
 .menu {
@@ -15,6 +20,7 @@
 .menu-icon {
     width: 2.4rem;
     height: 2.4rem;
+    filter: invert(1);
 }
 
 #hamburger-menu {
@@ -38,10 +44,9 @@
 nav {
     display: flex;
     justify-content: space-between;
-    padding-left: 3.2rem;
-    padding-right: 3.2rem;
-    margin-top: 1.6rem;
-    margin-bottom: 1.6rem;
+    padding: 1.6rem 3.2rem;
+    background: var(--dark-green);
+    color: var(--white);
 }
 
 .icon-container {
