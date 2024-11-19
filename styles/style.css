@@ -32,3 +32,27 @@
     height: 123px;
     gap: 16px;
 }
+
+
+
+#icons {
+    padding: 6rem 0;
+    text-align: center;
+
+    .item {
+        max-width: 12rem;
+        margin: 0 auto;
+    }
+    img {
+            background: grey;
+            width: 4rem;
+            height: 4rem;
+            display: block;
+            margin: 0 auto 1rem;
+    }
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}

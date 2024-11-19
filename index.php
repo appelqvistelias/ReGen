@@ -13,8 +13,8 @@
 
     <?php require_once(__DIR__ . "/section-best-seller.php"); ?>
 
-    <section>
-        <div id="inner-wrapper">
+    <section id="icons">
+        <div class="inner-wrapper flex">
             <div class="item">
                 <img>
                 <p>Miljövänligt, hållbart och redo för naturen</p>
