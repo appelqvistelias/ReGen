@@ -1,29 +1,5 @@
-#hamburger-menu {
-    background: url("../img/hamburger-menu.svg") no-repeat center;
-    width: 24px;
-    height: 24px;
-}
-#globe {
-    background: url("../img/globe.svg") no-repeat center;
-    width: 24px;
-    height: 24px;
-}
-#user-icon {
-    background: url("../img/user.svg") no-repeat center;
-    width: 24px;
-    height: 24px;
-}
-#shopping-cart-icon {
-    background: url("../img/shopping-cart.svg") no-repeat center;
-    width: 24px;
-    height: 24px;
-}
 
-#tent-card {
-    background: url("../img/tent-card.svg");
-    width: 112px;
-    height: 123px;
-}
+
 
 .item-cards {
     display: flex;
@@ -31,6 +7,11 @@
     width: 326px;
     height: 123px;
     gap: 16px;
+}
+#tent-card {
+    background: url("../img/tent-card.svg") no-repeat center;
+    width: 112px;
+    height: 123px;
 }
 
 
@@ -40,6 +21,13 @@
     text-align: center;
     background: var(--green);
     color: var(--beige);
+    
+    .inner-wrapper {
+        display: flex;
+        gap: 6.4rem;
+        flex-direction: column;
+        margin: 0 auto;
+    }
 
     .item {
         padding-bottom: 6.4rem;
@@ -49,40 +37,43 @@
             border-bottom: none;
             padding-bottom: 0;
         }
-    }
-    img {
-        background: var(--dark-green);
-        width: 2.4rem;
-        height: 2.4rem;
-        padding: 3.2rem;
-        display: block;
-        margin: 0 auto 1.6rem;
-        border-radius: 50%;
-    }
-    p {
-        max-width: 19rem;
-        margin: 0 auto;
+
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 6.4rem;
+            height: 6.4rem;
+            margin: 0 auto 1.6rem;
+            border-radius: 50%;
+            background: var(--dark-green);
+        }
+
+        p {
+            max-width: 19rem;
+            margin: 0 auto;
+        }
     }
 }
-.flex {
-    display: flex;
-    gap: 6.4rem;
-    flex-direction: column;
-        margin: 0 auto;
-}
 
-@media only screen and (min-width: 390px) {
-    .flex {
-        flex-direction: row;
-    }
-    .item {
-        padding-right: 6.4rem;
-        border-bottom: none;
-        border-right: .15rem solid var(--dark-green);
+@media only screen and (min-width: 834px) {
+    #icons {
+        padding: 12.8rem 0;
+        
+        .inner-wrapper {
+            flex-direction: row;
+        }
 
-        &:last-of-type {
-            padding-right: 0;
-            border-right: none;
+        .item {
+            padding-bottom: 0;
+            border-bottom: none;
+            padding-right: 6.4rem;
+            border-right: .15rem solid var(--dark-green);
+
+            &:last-of-type {
+                padding-right: 0;
+                border-right: none;
+            }
         }
     }
 }

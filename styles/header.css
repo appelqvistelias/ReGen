@@ -12,6 +12,24 @@
     gap: 1.6rem;
 }
 
+.menu-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+#hamburger-menu {
+    background: url("../img/hamburger-menu.svg") no-repeat center;
+}
+#globe {
+    background: url("../img/globe.svg") no-repeat center;
+}
+#user-icon {
+    background: url("../img/user.svg") no-repeat center;
+}
+#shopping-cart-icon {
+    background: url("../img/shopping-cart.svg") no-repeat center;
+}
+
 .menu-paragraph {
     font-family: "IBM Plex Sans", sans-serif;
     font-size: 1.6rem;
@@ -63,14 +81,17 @@ input::placeholder {
     width: 2.4rem;
 }
 
-.hero {
+.hero, #sustainability {
     background-color: #393939;
     color: var(--white);
     padding-top: 5rem;
     padding-bottom: 12.8rem;
 }
+#sustainability {
+    padding: 9.6rem 0;
+}
 
-.hero-paragraph {
+.hero-paragraph, #sustainability p {
     margin: 1.6rem 0 6.4rem 0;
 }
 

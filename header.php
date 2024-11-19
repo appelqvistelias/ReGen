@@ -26,13 +26,13 @@
         </div>
         <nav>
             <div class="menu">
-                <div id="hamburger-menu"></div>
+                <div class="menu-icon" id="hamburger-menu"></div>
                 <p class="menu-paragraph">Meny</p>
             </div>
             <div class="icon-container">
-                <div id="globe"></div>
-                <div id="user-icon"></div>
-                <div id="shopping-cart-icon"></div>
+                <div class="menu-icon" id="globe"></div>
+                <div class="menu-icon" id="user-icon"></div>
+                <div class="menu-icon" id="shopping-cart-icon"></div>
             </div>
         </nav>
         <div class="search-field">
