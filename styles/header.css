@@ -196,6 +196,10 @@ input::placeholder {
         gap: 1.6rem;
     }
 
+    .menu-desktop-paragraph {
+        font-size: 1.6rem;
+    }
+
     .nav-logo-desktop {
         display: inline;
     }
@@ -233,6 +237,7 @@ input::placeholder {
 
     .desktop-icon-paragraph {
         display: block;
+        font-size: 1.4rem;
     }
 
     #hero {

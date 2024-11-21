@@ -33,9 +33,9 @@
             </div>
 
             <div class="menu-desktop"> <!-- Visable on desktop -->
-                <p>Köp</p>
-                <p>Hållbarhet</p>
-                <p>Om Oss</p>
+                <p class="menu-desktop-paragraph">Köp</p>
+                <p class="menu-desktop-paragraph">Hållbarhet</p>
+                <p class="menu-desktop-paragraph">Om Oss</p>
             </div>
 
             <img class="nav-logo-desktop" src="img/regen-logo-desktop.svg" alt="regen logo">
