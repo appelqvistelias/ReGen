@@ -33,6 +33,12 @@ a {
 
 .inner-wrapper {
     padding: 0 3.2rem;
-    max-width: 1200px;
     margin: 0 auto;
+}
+
+@media only screen and (min-width: 834px) {
+    .inner-wrapper {
+        max-width: 1440px;
+        padding: 0 12rem;
+    }
 }
