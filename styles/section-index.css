@@ -52,7 +52,6 @@ span.text-orange {
 .newsletter-signup-email-input-box {
     display: flex;
     align-items: center;
-    font-family: "IBM Plex Sans", sans-serif;
     display: flex;
     justify-content: space-between;
     width: 32.6rem;
@@ -63,6 +62,8 @@ span.text-orange {
 }
 
 .newsletter-signup-input {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 1.6rem;
     border: 0;
     background: inherit;
     width: 100%;
