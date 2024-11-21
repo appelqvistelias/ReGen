@@ -46,12 +46,15 @@ header .logo img {
 #hamburger-menu {
     background: url("../img/hamburger-menu.svg") no-repeat center;
 }
+
 #globe {
     background: url("../img/globe.svg") no-repeat center;
 }
+
 #user-icon {
     background: url("../img/user.svg") no-repeat center;
 }
+
 #shopping-cart-icon {
     background: url("../img/shopping-cart.svg") no-repeat center;
 }
@@ -130,4 +133,10 @@ input::placeholder {
     background-color: var(--white);
     background: var(--orange);
     border-radius: 0.4rem;
+}
+
+@media only screen and (min-width: 834px) {
+    .menu, .search-field, .search, .search-btn {
+        display: none;
+    }
 }
