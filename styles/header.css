@@ -19,7 +19,7 @@ header .top-banner {
     background: var(--green);
 }
 
-header .top-banner img {
+header .nav-logo-desktop, .top-banner img {
     filter: invert(1);
 }
 
@@ -36,11 +36,27 @@ header .top-banner img {
     font-size: 1.6rem;
 }
 
-.menu {
+.menu-mobile {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1.6rem;
+}
+
+#hamburger-menu {
+    background: url("../img/hamburger-menu.svg") no-repeat center;
+}
+
+.menu-desktop, .nav-logo-desktop {
+    display: none;
+}
+
+.menu-desktop-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
 }
 
 .menu-icon {
@@ -49,12 +65,16 @@ header .top-banner img {
     filter: invert(1);
 }
 
-#hamburger-menu {
-    background: url("../img/hamburger-menu.svg") no-repeat center;
+#globe-icon {
+    background: url("../img/globe.svg") no-repeat center;
 }
 
-#globe {
-    background: url("../img/globe.svg") no-repeat center;
+#search-icon {
+    background: url("../img/search.svg") no-repeat center;
+}
+
+.menu-desktop-items:nth-child(2) { /* Hides the search icon on mobile without taking up extra space */
+    display: none;
 }
 
 #user-icon {
@@ -63,6 +83,10 @@ header .top-banner img {
 
 #shopping-cart-icon {
     background: url("../img/shopping-cart.svg") no-repeat center;
+}
+
+.desktop-icon-paragraph {
+    display: none;
 }
 
 .menu-paragraph {
@@ -143,7 +167,7 @@ input::placeholder {
 
 @media only screen and (min-width: 834px) {
     header {
-        .menu, .search-field, .search, .search-btn, .top-banner-logo {
+        .menu-mobile, .search-field, .search, .search-btn, .top-banner-logo {
             display: none;
         }
 
@@ -152,7 +176,7 @@ input::placeholder {
         }
 
         .top-banner-paragraph {
-            display: contents;
+            display: block;
         }
 
         nav {
@@ -160,7 +184,58 @@ input::placeholder {
         }
     }
 
+    nav {
+        padding-left: 12rem;
+        padding-right: 12rem;
+    }
+
+    .menu-desktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1.6rem;
+    }
+
+    .nav-logo-desktop {
+        display: inline;
+    }
+
+    .icon-container {
+        width: 30rem;
+        height: 6rem;
+    }
+
+    .menu-icon {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    /* Change to bigger icons */
+    #globe-icon {
+        background: url("../img/globe-desktop.svg") no-repeat center;
+    }
+    
+    #search-icon {
+        background: url("../img/search-desktop.svg") no-repeat center;
+    }
+
+    .menu-desktop-items:nth-child(2) {
+        display: flex;
+    }
+    
+    #user-icon {
+        background: url("../img/user-desktop.svg") no-repeat center;
+    }
+    
+    #shopping-cart-icon {
+        background: url("../img/shopping-cart-desktop.svg") no-repeat center;
+    }
+
+    .desktop-icon-paragraph {
+        display: block;
+    }
+
     #hero {
-        margin-top: calc(5.2rem + 5.6rem);
+        margin-top: calc(5.2rem + 9.2rem);
     }
 }

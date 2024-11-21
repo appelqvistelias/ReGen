@@ -22,18 +22,46 @@
 <body>
     <header>
         <div class="top-banner">
-            <img class = "top-banner-logo" src="img/regen-logo.svg" alt="regen logo">
-            <p class="top-banner-paragraph">Delta i vår hållbarhetresa!</p>
+            <img class="top-banner-logo" src="img/regen-logo.svg" alt="regen logo"> <!-- Visable on mobile -->
+            <p class="top-banner-paragraph">Delta i vår hållbarhetresa!</p> <!-- Visable on desktop -->
         </div>
+
         <nav>
-            <div class="menu">
+            <div class="menu-mobile"> <!-- Visable on mobile -->
                 <div class="menu-icon" id="hamburger-menu"></div>
                 <p class="menu-paragraph">Meny</p>
             </div>
+
+            <div class="menu-desktop"> <!-- Visable on desktop -->
+                <p>Köp</p>
+                <p>Hållbarhet</p>
+                <p>Om Oss</p>
+            </div>
+
+            <img class="nav-logo-desktop" src="img/regen-logo-desktop.svg" alt="regen logo">
+
             <div class="icon-container">
-                <div class="menu-icon" id="globe"></div>
-                <div class="menu-icon" id="user-icon"></div>
-                <div class="menu-icon" id="shopping-cart-icon"></div>
+
+                <div class="menu-desktop-items">
+                    <div class="menu-icon" id="globe-icon"></div>
+                    <p class="desktop-icon-paragraph">Språk</p> <!-- Visable on desktop -->
+                </div>
+
+                <div class="menu-desktop-items"> <!-- Visable on desktop -->
+                    <div class="menu-icon" id="search-icon"></div>
+                    <p class="desktop-icon-paragraph">Sök</p>
+                </div>
+
+                <div class="menu-desktop-items">
+                    <div class="menu-icon" id="user-icon"></div>
+                    <p class="desktop-icon-paragraph">Ditt Konto</p> <!-- Visable on desktop -->
+                </div>
+
+                <div class="menu-desktop-items">
+                    <div class="menu-icon" id="shopping-cart-icon"></div>
+                    <p class="desktop-icon-paragraph">Kundvagn</p> <!-- Visable on desktop -->
+                </div>
+
             </div>
         </nav>
         <div class="search-field">
