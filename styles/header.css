@@ -191,9 +191,10 @@ input::placeholder {
 
     .menu-desktop {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
         gap: 1.6rem;
+        width: 33%;
     }
 
     .menu-desktop-paragraph {
@@ -205,7 +206,9 @@ input::placeholder {
     }
 
     .icon-container {
-        width: 30rem;
+        justify-content: flex-end;
+        gap: 3.2rem;
+        width: 33%;
         height: 6rem;
     }
 
@@ -242,5 +245,6 @@ input::placeholder {
 
     #hero {
         margin-top: calc(5.2rem + 9.2rem);
+        padding-top: 19.2rem;
     }
 }
