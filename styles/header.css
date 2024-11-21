@@ -165,6 +165,10 @@ input::placeholder {
     border-radius: 0.4rem;
 }
 
+#scroll {
+    display: none;
+}
+
 @media only screen and (min-width: 834px) {
     header {
         .menu-mobile, .search-field, .search, .search-btn, .top-banner-logo {
@@ -246,5 +250,19 @@ input::placeholder {
     #hero {
         margin-top: calc(5.2rem + 9.2rem);
         padding-top: 19.2rem;
+        padding-bottom: 6.4rem;
+        position: relative;
+    }
+
+    #scroll {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 1.6rem;
+        padding-top: 12.8rem;
+
+        img {
+            width: 2.4rem;
+        }
     }
 }

@@ -77,7 +77,11 @@
                     </a>
                     <img src="img/arrow-up-right.svg">
                 </div>
+                <div id="scroll">
+                    <img src="img/arrow-down-inverted.svg">
+                    <p class="tiny">Scrolla</p>
+                </div>
             </div>
-            <img src="https://s3-alpha-sig.figma.com/img/d9c8/7231/895cc5d6b64dd6c4f5a50a59d236c2a0?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=PweOJKGUSlZkc6w0xoI1av0sXgo1zLZ5ekKgzySQp~41HzpXPzLDsNoiQGVxVxVO5JOWy4~m36UDbdoKWLbGzXtjQnNeHgriwCAaHHCpTtrHWJeYs2YFszsQ6XEHy2OwO55X8OIjCQI3w7HMXodubg3nkZf7T2Vu2a8plu-BefTyIYY1NqvZhxmWmTXFRHY~TN7wfNrgJeRuk2oAFitoiRgDM~bplouBBVnKK6s6wWeCgkGs80~w34ADUSMSb0mAvH8rxMsPujSH4ePmteLg3AXGZFLmcofteL13hgOxDzNemzgpwYc3azeHNaWmuAQyHVZ3vG6SMcn6Z-XPYGjQpA__" class="section-bg" alt="" />
+            <img src="https://s3-alpha-sig.figma.com/img/5e14/55b0/79be1970f3b3a9383ae56b768c009bc8?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fXlNra8nynQdFO0kDWAmf4hhmYJP-CDZlK1~sCLOcX0dOAKiswC4ppfwMKaGS6t6sCBEVXXPfzjSRFVwyjh~s4oJIsEGgJzrPH3YGFnn6Ap3mCg1fxXaglUrj~Eos2u5dVbsTP8dUVoMEXdi7Jeh~oM4-sl9bdRXcvs2njUXN5VJU40UdQHKWWnXfY7DBM2iPC1CgC32GsP97uAS3g9uLcFqiLwyrtt8xw-emCHqC5mqVRUk4eTD4JVJncKtdF3YoiGTXLTKnwhVc25qWPaV0gyYlJ5WDteAcncZ9pwe6QZACNng9d5dcgfnLoVSmOA2fUAjJdTU9uxrnG7b-rvR1w__" class="section-bg" alt="" />
         </section>
     </header>
