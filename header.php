@@ -21,8 +21,9 @@
 
 <body>
     <header>
-        <div class="logo">
-            <img src="img/regen-logo.svg" alt="regen logo">
+        <div class="top-banner">
+            <img class = "top-banner-logo" src="img/regen-logo.svg" alt="regen logo">
+            <p class="top-banner-paragraph">Delta i vår hållbarhetresa!</p>
         </div>
         <nav>
             <div class="menu">

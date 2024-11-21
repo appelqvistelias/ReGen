@@ -1,11 +1,11 @@
 header {
-
-    .logo, nav {
+    .top-banner, nav {
         position: fixed;
         top: 0;
         z-index: 500;
         width: 100%;
     }
+
     nav {
         margin-top: 3.2rem; /* height of nav */
     }
@@ -15,19 +15,25 @@ header {
     }
 }
 
-header .logo {
+header .top-banner {
     background: var(--green);
 }
 
-header .logo img {
+header .top-banner img {
     filter: invert(1);
 }
 
-.logo {
+.top-banner {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 3.2rem;
+}
+
+.top-banner-paragraph {
+    display: none;
+    color: var(--white);
+    font-size: 1.6rem;
 }
 
 .menu {
@@ -136,7 +142,25 @@ input::placeholder {
 }
 
 @media only screen and (min-width: 834px) {
-    .menu, .search-field, .search, .search-btn {
-        display: none;
+    header {
+        .menu, .search-field, .search, .search-btn, .top-banner-logo {
+            display: none;
+        }
+
+        .top-banner {
+            height: 5.2rem;
+        }
+
+        .top-banner-paragraph {
+            display: contents;
+        }
+
+        nav {
+            margin-top: 5.2rem;
+        }
+    }
+
+    #hero {
+        margin-top: calc(5.2rem + 5.6rem);
     }
 }
