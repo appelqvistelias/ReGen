@@ -1,3 +1,4 @@
+<?php require_once('data.php'); ?>
 <section id="best-sellers">
     <div class="inner-wrapper">
         <hgroup>
@@ -8,81 +9,23 @@
             </div>
         </hgroup>
         <div class="container">
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/15dPzp5GUd8mpJcgJ5_-2sNS57tLno9IC=w2940-h1554-iv2">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/1vg5Ac-cWYODUSe8YLHgVRufsYJhV0xom=w2940-h1554-iv1">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/1uF2kCi8SC5-rnd_z9hu-RRsvZ2KRW5IB=w3000-h6492-iv2">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/1yYTqpxG75pKhINtO-LMQceLgciQKgSdD=w3000-h6492-iv1">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/1yht7IR7lW8WFOhiPpn9f3K3lAuO1QHZj=w3000-h6492-iv2">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
+            <?php foreach ($products as $product) : ?>
+                <article class="product">
+                    <img src="<?= $product['img']; ?>">
+                    <div class="product-inner-wrapper">
+                        <h3 class="product-name"><?= $product['name']; ?></h3>
+                        <h2 class="product-price"><?= $product['price']; ?>kr</h2>
+                        <div class="product-colors">
+                            <div class="color"></div>
+                            <div class="color"></div>
+                            <div class="color"></div>
+                        </div>
+                        <div class="product-add-btn">
+                            <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                        </div>
+                    </div><!-- product-inner-wrapper -->
+                </article>
+            <?php endforeach; ?>
         </div><!-- .container -->
     </div><!-- . inner-wrapper -->
 </section>
@@ -90,7 +33,7 @@
 <section id="materials">
     <div class="inner-wrapper">
         <article>
-            <img src="/img/stock-photo-materials.png" alt="" id="materials-image" />
+            <img src="/img/tekniska_element.png" alt="" id="materials-image" />
             <div class="text">
                 <h2>Innovativa Material för en Hållbar Framtid</h2>
                 <h3>Vattenavvisande utan skadliga kemikalier</h3>
@@ -121,81 +64,23 @@
             </div>
         </hgroup>
         <div class="container">
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/15dPzp5GUd8mpJcgJ5_-2sNS57tLno9IC=w2940-h1554-iv2">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/1vg5Ac-cWYODUSe8YLHgVRufsYJhV0xom=w2940-h1554-iv1">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/1uF2kCi8SC5-rnd_z9hu-RRsvZ2KRW5IB=w3000-h6492-iv2">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/1yYTqpxG75pKhINtO-LMQceLgciQKgSdD=w3000-h6492-iv1">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
-            <article class="product">
-                <img src="https://lh3.googleusercontent.com/u/0/d/1yht7IR7lW8WFOhiPpn9f3K3lAuO1QHZj=w3000-h6492-iv2">
-                <div class="product-inner-wrapper">
-                    <h3 class="product-name">Tält ECO-05</h3>
-                    <h2 class="product-price">600kr</h2>
-                    <div class="product-colors">
-                        <div class="color"></div>
-                        <div class="color"></div>
-                        <div class="color"></div>
-                    </div>
-                    <div class="product-add-btn">
-                        <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                    </div>
-                </div><!-- product-inner-wrapper -->
-            </article>
+            <?php foreach ($productsReverse as $product) : ?>
+                <article class="product">
+                    <img src="<?= $product['img']; ?>">
+                    <div class="product-inner-wrapper">
+                        <h3 class="product-name"><?= $product['name']; ?></h3>
+                        <h2 class="product-price"><?= $product['price']; ?>kr</h2>
+                        <div class="product-colors">
+                            <div class="color"></div>
+                            <div class="color"></div>
+                            <div class="color"></div>
+                        </div>
+                        <div class="product-add-btn">
+                            <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                        </div>
+                    </div><!-- product-inner-wrapper -->
+                </article>
+            <?php endforeach; ?>
         </div><!-- .container -->
     </div><!-- . inner-wrapper -->
 </section>
