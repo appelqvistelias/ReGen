@@ -44,9 +44,14 @@ footer {
     background-color: var(--green);
 }
 
-.footer-drop-down p {
+.footer-drop-down h3 {
     font-weight: bold;
     font-size: 1.6rem;
+}
+
+.footer-drop-down ul,
+.footer-drop-down p {
+    display: none;
 }
 
 .copyright {
@@ -57,19 +62,69 @@ footer {
 
 @media only screen and (min-width: 1024px) {
     footer {
-
+        
         .inner-wrapper {
-        display: flex;
-        flex-wrap: wrap;
-        }
-        .logo {
+            display: flex;
+            justify-content: space-between;
             width: 100%;
-            flex-shrink: 0;
+            
+            .logo {
+                width: 50%;
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+
+                 img {
+                    height: 3.6rem;
+                 }
+            }
+            .details-footer {
+                width: 50%;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 4.8rem;
+                margin: 0;
+        
+                .footer-drop-down {
+                    padding: 0;
+                    margin: 0;
+                    display: block;
+                    height: auto;
+                    background: transparent;
+
+                    h3 {
+                        padding-top: 0;
+                        margin-bottom: 3.2rem;
+                        font-weight: normal;
+                        font-size: 2.4rem;
+                        color: var(--orange);
+                    }
+                    img {
+                        display: none;
+                    }
+
+                    ul, p {
+                        display: block;
+                        list-style: none;
+                    }
+
+                    p, li {
+                        padding: 0 0 1.6rem;
+                    }
+
+                    a {
+                        color: inherit;
+                    }
+                }
+            }
+        }
+
+        .copyright {
+            padding-top: 6.4rem;
         }
     }
-    .details-footer {
-        display: flex;
-    }
+    
     #back-to-top {
         padding-bottom: 6.4rem;
     }
