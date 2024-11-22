@@ -6,6 +6,23 @@ footer {
     color: var(--beige);
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;
+
+    .logo {
+        justify-self: center;
+    }
+}
+
+#back-to-top {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.6rem;
+    padding-bottom: 4.8rem;
+    cursor: pointer;
+
+    img {
+        width: 2.4rem;
+    }
 }
 
 .details-footer {
@@ -35,4 +52,11 @@ footer {
 .copyright {
     font-size: 1.6rem;
     font-weight: 100;
+}
+
+
+@media only screen and (min-width: 834px) {
+    #back-to-top {
+        padding-bottom: 6.4rem;
+    }
 }

@@ -1,5 +1,10 @@
 <footer>
     <div class="inner-wrapper">
+        <div id="back-to-top" onclick="backToTopFunction()">
+            <img src="img/arrow-up-inverted.svg">
+            <p class="tiny">Till toppen</p>
+        </div>
+
         <div class="logo">
             <img src="img/Regen-logo-orange.svg" alt="regen logo">
         </div>

@@ -16,6 +16,8 @@
     //     });
     // });
 
+    /*********** Karuseller **********/
+
     function setupScrollNavigation(sectionSelector) {
         document.addEventListener("DOMContentLoaded", () => {
             // Hämta sektionen med angiven selector
@@ -63,3 +65,12 @@
     setupScrollNavigation('#categories');
     setupScrollNavigation('#best-sellers');
     setupScrollNavigation('#new-articles');
+
+
+/********* Back to top **********/
+
+// When the user clicks on the button, scroll to the top of the document
+function backToTopFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
