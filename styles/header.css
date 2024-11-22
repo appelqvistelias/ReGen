@@ -170,7 +170,7 @@ input::placeholder {
     display: none;
 }
 
-@media only screen and (min-width: 834px) {
+@media only screen and (min-width: 1024px) {
     header {
         .menu-mobile, .search-field, .search, .search-btn, .top-banner-logo {
             display: none;

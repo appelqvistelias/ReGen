@@ -55,7 +55,7 @@ footer {
 }
 
 
-@media only screen and (min-width: 834px) {
+@media only screen and (min-width: 1024px) {
     #back-to-top {
         padding-bottom: 6.4rem;
     }
