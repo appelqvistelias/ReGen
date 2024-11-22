@@ -4,8 +4,8 @@ footer {
     flex-direction: column;
     background-color: var(--dark-green);
     color: var(--beige);
-    padding-top: 9.6rem;
-    padding-bottom: 9.6rem;
+    padding-top: 6.4rem;
+    padding-bottom: 6.4rem;
 
     .logo {
         justify-self: center;
@@ -56,6 +56,20 @@ footer {
 
 
 @media only screen and (min-width: 1024px) {
+    footer {
+
+        .inner-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .logo {
+            width: 100%;
+            flex-shrink: 0;
+        }
+    }
+    .details-footer {
+        display: flex;
+    }
     #back-to-top {
         padding-bottom: 6.4rem;
     }
