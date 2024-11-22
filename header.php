@@ -22,7 +22,7 @@
 <body>
     <header>
         <div class="top-banner">
-            <img class="top-banner-logo" src="img/regen-logo.svg" alt="regen logo"> <!-- Visable on mobile -->
+            <img class="top-banner-logo" src="img/regen-logo-inverted.svg" alt="regen logo"> <!-- Visable on mobile -->
             <p class="top-banner-paragraph">Delta i vår hållbarhetresa!</p> <!-- Visable on desktop -->
         </div>
 

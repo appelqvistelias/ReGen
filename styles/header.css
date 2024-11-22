@@ -1,4 +1,6 @@
 header {
+    color: var(--beige);
+    
     .top-banner, nav {
         position: fixed;
         top: 0;
@@ -19,9 +21,6 @@ header .top-banner {
     background: var(--green);
 }
 
-header .nav-logo-desktop, .top-banner img {
-    filter: invert(1);
-}
 
 .top-banner {
     display: flex;
@@ -32,7 +31,7 @@ header .nav-logo-desktop, .top-banner img {
 
 .top-banner-paragraph {
     display: none;
-    color: var(--white);
+    color: var(--beige);
     font-size: 1.6rem;
 }
 
@@ -62,7 +61,6 @@ header .nav-logo-desktop, .top-banner img {
 .menu-icon {
     width: 2.4rem;
     height: 2.4rem;
-    filter: invert(1);
 }
 
 #globe-icon {
@@ -99,7 +97,6 @@ nav {
     justify-content: space-between;
     padding: 1.6rem 3.2rem;
     background: var(--dark-green);
-    color: var(--white);
 }
 
 .icon-container {
