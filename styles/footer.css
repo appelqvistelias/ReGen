@@ -12,6 +12,15 @@ footer {
     }
 }
 
+@keyframes scroll-up {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-5px);
+    }
+}
+
 #back-to-top {
     display: flex;
     align-items: center;
@@ -22,6 +31,7 @@ footer {
 
     img {
         width: 2.4rem;
+        animation: 1.5s scroll-up ease-in infinite;
     }
 }
 
