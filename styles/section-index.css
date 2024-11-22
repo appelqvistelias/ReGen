@@ -20,7 +20,7 @@
 }
 
 #newsletter-signup {
-    color: var(--white);
+    color: var(--beige);
     padding-top: 9.6rem;
     padding-bottom: 9.6rem;
 
@@ -32,16 +32,13 @@
     }
 }
 
-.newsletter-signup-h3 {
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: none;
-    margin-bottom: 1.8rem;
+#newsletter h2 {
+    font-weight: normal;
 }
 
 .newsletter-signup-paragraph {
-    font-size: 1.6rem;
-    margin-bottom: 4.8rem;
+    margin-top: 1.6rem;
+    margin-bottom: 6.4rem;
 }
 span.text-orange {
     color: var(--orange);
@@ -49,7 +46,8 @@ span.text-orange {
 
 .newsletter-signup-label {
     display: block;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    margin-bottom: .8rem;
 }
 
 .newsletter-signup-email-input-box {
@@ -79,4 +77,15 @@ span.text-orange {
     width: 4rem;
     border-radius: 0.4rem;
     flex-shrink: 0;
+}
+
+
+@media only screen and (min-width: 1024px) {
+    #newsletter h2 {
+        padding-bottom: 3.2rem;
+    }
+    .newsletter-signup-paragraph {
+        margin-top: 3.2rem;
+        margin-bottom: 4.8rem;
+    }
 }

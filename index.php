@@ -40,8 +40,8 @@
 
     <section id="newsletter-signup">
         <div class="inner-wrapper">
-            <h3 class="newsletter-signup-h3">Få <span class="text-orange">10% rabatt</span> på ditt nästa köp.</h3>
-            <p class="newsletter-signup-paragraph">Skriv in dig på vårat nyhetsbrev, där vi gör utskick om nya kollektioner.</p>
+            <h2>Få <span class="text-orange">10% rabatt</span> på ditt nästa köp.</h2>
+            <p class="newsletter-signup-paragraph">Skriv in dig på vårt nyhetsbrev, där vi gör utskick om nya kollektioner.</p>
             <label class="newsletter-signup-label">Email*</label>
             <div class="newsletter-signup-email-input-box">
                 <input class="newsletter-signup-input" type="email" placeholder="john.doe@email.com">
