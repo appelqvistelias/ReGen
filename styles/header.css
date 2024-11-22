@@ -143,7 +143,7 @@ input::placeholder {
     background-color: #393939;
     color: var(--white);
     padding-top: 5rem;
-    padding-bottom: 12.8rem;
+    padding: 9.6rem 0 12.8rem;
 }
 #sustainability {
     padding: 9.6rem 0;
