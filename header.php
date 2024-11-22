@@ -82,6 +82,6 @@
                     <p class="tiny">Scrolla</p>
                 </div>
             </div>
-            <img src="https://s3-alpha-sig.figma.com/img/5e14/55b0/79be1970f3b3a9383ae56b768c009bc8?Expires=1733097600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fXlNra8nynQdFO0kDWAmf4hhmYJP-CDZlK1~sCLOcX0dOAKiswC4ppfwMKaGS6t6sCBEVXXPfzjSRFVwyjh~s4oJIsEGgJzrPH3YGFnn6Ap3mCg1fxXaglUrj~Eos2u5dVbsTP8dUVoMEXdi7Jeh~oM4-sl9bdRXcvs2njUXN5VJU40UdQHKWWnXfY7DBM2iPC1CgC32GsP97uAS3g9uLcFqiLwyrtt8xw-emCHqC5mqVRUk4eTD4JVJncKtdF3YoiGTXLTKnwhVc25qWPaV0gyYlJ5WDteAcncZ9pwe6QZACNng9d5dcgfnLoVSmOA2fUAjJdTU9uxrnG7b-rvR1w__" class="section-bg" alt="" />
+            <img src="/img/hero.jpeg" class="section-bg" alt="" />
         </section>
     </header>
