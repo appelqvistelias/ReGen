@@ -26,30 +26,6 @@ $products = [
         ]
     ],
     [
-        'name' => 'Sovsäck',
-        'price' => '3000',
-        'colors' => [
-            'yellow' => [
-                'images' => [
-                    'sovsack_yellow.jpg',
-                    'sovsack_yellow_2.jpg'
-                ]
-            ],
-            'green' => [
-                'images' => [
-                    'sovsack_green.jpg',
-                    'sovsack_green_2.jpg'
-                ]
-            ],
-            'brown' => [
-                'images' => [
-                    'sovsack_brown.jpg',
-                    'sovsack_brown_2.jpg'
-                ]
-            ],
-        ]
-    ],
-    [
         'name' => 'Sko',
         'price' => '3000',
         'colors' => [
@@ -69,6 +45,34 @@ $products = [
                 'images' => [
                     'sko_brown.png',
                     'sko_brown.gif'
+                ]
+            ],
+        ]
+    ],
+];
+
+
+$products_soon = [
+    [
+        'name' => 'Sovsäck',
+        'price' => '3000',
+        'colors' => [
+            'yellow' => [
+                'images' => [
+                    'sovsack_yellow.jpg',
+                    'sovsack_yellow_2.jpg'
+                ]
+            ],
+            'green' => [
+                'images' => [
+                    'sovsack_green.jpg',
+                    'sovsack_green_2.jpg'
+                ]
+            ],
+            'brown' => [
+                'images' => [
+                    'sovsack_brown.jpg',
+                    'sovsack_brown_2.jpg'
                 ]
             ],
         ]
@@ -98,5 +102,3 @@ $products = [
         ]
     ],
 ];
-
-$productsReverse = array_reverse($products);

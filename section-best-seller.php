@@ -81,7 +81,7 @@
             </div>
         </hgroup>
         <div class="container">
-            <?php foreach ($productsReverse as $product) : ?>
+            <?php foreach ($products_soon as $product) : ?>
                 <?php foreach ($product['colors'] as $color => $colorData) : ?>
                     <article class="product">
                         <!-- Huvudbilden för den valda färgen -->
@@ -120,29 +120,22 @@
 </section>
 
 <script>
-    // Funktion toggla mellan bilder
-    function toggleImages(produktId) {
-        const huvudbild = document.getElementById('huvudbild-' + produktId);
-        const bild = document.getElementById('bild-' + produktId);
-
-        // Toggla visibiliteten mellan bilderna
-        const isVisible = huvudbild.style.display !== 'none';
-        huvudbild.style.display = isVisible ? 'none' : 'block';
-        bild.style.display = isVisible ? 'block' : 'none';
-    }
-
     // Funktion för att byta färg på bilder
     function changeColor(produktNamnet, valdFarg, nyFarg) {
+
         // Hämta produktdata från PHP och konvertera till JavaScript-objekt
         const produktData = <?php echo json_encode($products); ?>;
+        const produktData2 = <?php echo json_encode($products_soon); ?>;
+
         // Hitta rätt produkt i arrayen
-        const valdProdukt = produktData.find(p => p.name === produktNamnet);
+        const valdProdukt = produktData.find(p => p.name === produktNamnet) || produktData2.find(p => p.name === produktNamnet);
         if (!valdProdukt) {
             console.error("Produkt ej hittad");
             return;
         }
         // Hitta rätt färg (nyFarg) i produktens färger
         const valdFargData = valdProdukt.colors[nyFarg];
+
         // Uppdatera huvudbilden för produkten
         const huvudbild = document.getElementById('huvudbild-' + produktNamnet + '-' + valdFarg);
         if (huvudbild) {

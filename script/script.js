@@ -74,3 +74,15 @@
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
     }
 
+
+/********* Växla mellan produktbilder ******/
+ 
+    function toggleImages(produktId) {
+        const huvudbild = document.getElementById('huvudbild-' + produktId);
+        const bild = document.getElementById('bild-' + produktId);
+
+        // Toggla visibiliteten mellan bilderna
+        const isVisible = huvudbild.style.display !== 'none';
+        huvudbild.style.display = isVisible ? 'none' : 'block';
+        bild.style.display = isVisible ? 'block' : 'none';
+    }
