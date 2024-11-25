@@ -18,7 +18,7 @@
             </div>
             <div class="product item-card">
                 <img src="/img/c-sovsackar.jpeg" alt="Kategori sovsäckar" />
-                <p>Soväsckar</p>
+                <p>Sovsäckar</p>
             </div>
             <div class="product item-card">
                 <img src="/img/c-fiskespo.jpeg" alt="Kategori fiskespön" />
