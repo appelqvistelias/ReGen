@@ -1,22 +1,4 @@
-    //     document.addEventListener("DOMContentLoaded", () => {
-    //     const container = document.querySelector('.container');
-    //     const prevBtn = document.querySelector('.prev-btn');
-    //     const nextBtn = document.querySelector('.next-btn');
-    //     // const prevBtn = document.getElementById('prev-btn');
-    //     // const nextBtn = document.getElementById('next-btn');
-
-    //     const itemWidth = container.querySelector('.product').offsetWidth;  // Hämta bredden på ett objekt
-
-    //     prevBtn.addEventListener('click', () => {
-    //         container.scrollLeft -= itemWidth;  // Skrolla till vänster
-    //     });
-
-    //     nextBtn.addEventListener('click', () => {
-    //         container.scrollLeft += itemWidth;  // Skrolla till höger
-    //     });
-    // });
-
-    /*********** Karuseller **********/
+/*********** Karuseller **********/
 
     function setupScrollNavigation(sectionSelector) {
         document.addEventListener("DOMContentLoaded", () => {
@@ -69,8 +51,44 @@
 
 /********* Back to top **********/
 
-// When the user clicks on the button, scroll to the top of the document
-function backToTopFunction() {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+    function backToTopFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+
+/********* Växla mellan produktbilder *********/
+
+    function toggleImages(produktId) {
+        const huvudbild = document.getElementById('huvudbild-' + produktId);
+        const bild = document.getElementById('bild-' + produktId);
+
+        // Toggla visibiliteten mellan bilderna
+        const isVisible = huvudbild.style.display !== 'none';
+        huvudbild.style.display = isVisible ? 'none' : 'block';
+        bild.style.display = isVisible ? 'block' : 'none';
+    }
+
+/********** Välj och byt färg  *************/
+
+    function changeColor(produktNamnet, valdFarg, nyFarg) {
+        // Hämta produktdata från PHP och konvertera till JavaScript-objekt
+        const produktData = <?php echo json_encode($products); ?>;
+        // Hitta rätt produkt i arrayen
+        const valdProdukt = produktData.find(p => p.name === produktNamnet);
+        if (!valdProdukt) {
+            console.error("Produkt ej hittad");
+            return;
+        }
+        // Hitta rätt färg (nyFarg) i produktens färger
+        const valdFargData = valdProdukt.colors[nyFarg];
+        // Uppdatera huvudbilden för produkten
+        const huvudbild = document.getElementById('huvudbild-' + produktNamnet + '-' + valdFarg);
+        if (huvudbild) {
+            huvudbild.src = 'img/' + valdFargData.images[0];
+        }
+        // Uppdatera andra bilder
+        const bild = document.getElementById('bild-' + produktNamnet + '-' + valdFarg);
+        if (bild) {
+            bild.src = 'img/' + valdFargData.images[1];
+        }
+    }
