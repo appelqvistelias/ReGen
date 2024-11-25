@@ -34,6 +34,7 @@ hgroup {
         flex-shrink: 0;
         scroll-snap-align: start;
         box-shadow: .3rem .3rem .4rem rgba(47, 61, 48, .10);
+        position: relative;
 
         &:last-child {
             margin-right: -.4rem;
@@ -44,6 +45,8 @@ hgroup {
             width: 100%;
             height: 19.1rem;
             object-fit: cover;
+            background-color: var(--gray2);
+
         }
 
         .product-inner-wrapper {
@@ -60,17 +63,21 @@ hgroup {
                 height: 2.4rem;
                 margin-right: .8rem;
 
-                &:nth-of-type(1) {
+                &.yellow {
                     background: var(--beige);
                     border: 1px solid var(--brown);
                 }
-                &:nth-of-type(2) {
+                &.brown {
                     background: var(--brown);
                     border: 1px solid var(--brown);
                 }
-                &:nth-of-type(3) {
+                &.green {
                     background: var(--green);
                     border: 1px solid var(--green);
+                }
+                &.black {
+                    background: var(--black);
+                    border: 1px solid var(--black);
                 }
             }
         }

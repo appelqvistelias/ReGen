@@ -3,75 +3,99 @@
 $products = [
     [
         'name' => 'Mössa',
-        'color' => 'Gul',
         'price' => '3000',
-        'img' => 'img/mossa_yellow.jpg'
-    ],
-    [
-        'name' => 'Mössa',
-        'color' => 'Grön',
-        'price' => '3000',
-        'img' => 'img/mossa_green.jpg'
-    ],
-    [
-        'name' => 'Mössa',
-        'color' => 'Brun',
-        'price' => '3000',
-        'img' => 'img/mossa_brown.jpg'
-    ],
-    [
-        'name' => 'Sovsäck',
-        'color' => 'Gul',
-        'price' => '3000',
-        'img' => 'img/sovsack_yellow.jpg'
-    ],
-    [
-        'name' => 'Sovsäck',
-        'color' => 'Grön',
-        'price' => '3000',
-        'img' => 'img/sovsack_green.jpg'
+        'colors' => [
+            'yellow' => [
+                'images' => [
+                    'mossa_yellow.jpg',
+                    'mossa_yellow.gif'
+                ]
+            ],
+            'green' => [
+                'images' => [
+                    'mossa_green.jpg',
+                    'mossa_green.gif'
+                ]
+            ],
+            'brown' => [
+                'images' => [
+                    'mossa_brown.jpg',
+                    'mossa_brown.gif'
+                ]
+            ],
+        ]
     ],
     [
         'name' => 'Sovsäck',
-        'color' => 'Brun',
         'price' => '3000',
-        'img' => 'img/sovsack_brown.jpg'
+        'colors' => [
+            'yellow' => [
+                'images' => [
+                    'sovsack_yellow.jpg',
+                    'sovsack_yellow_2.jpg'
+                ]
+            ],
+            'green' => [
+                'images' => [
+                    'sovsack_green.jpg',
+                    'sovsack_green_2.jpg'
+                ]
+            ],
+            'brown' => [
+                'images' => [
+                    'sovsack_brown.jpg',
+                    'sovsack_brown_2.jpg'
+                ]
+            ],
+        ]
     ],
     [
         'name' => 'Sko',
-        'color' => 'Gul',
         'price' => '3000',
-        'img' => 'https://lh3.googleusercontent.com/u/0/d/15dPzp5GUd8mpJcgJ5_-2sNS57tLno9IC=w2940-h1554-iv2'
-    ],
-    [
-        'name' => 'Sko',
-        'color' => 'Grön',
-        'price' => '3000',
-        'img' => 'https://lh3.googleusercontent.com/u/0/d/15dPzp5GUd8mpJcgJ5_-2sNS57tLno9IC=w2940-h1554-iv2'
-    ],
-    [
-        'name' => 'Sko',
-        'color' => 'Brun',
-        'price' => '3000',
-        'img' => 'https://lh3.googleusercontent.com/u/0/d/15dPzp5GUd8mpJcgJ5_-2sNS57tLno9IC=w2940-h1554-iv2'
-    ],
-    [
-        'name' => 'Fiskespö',
-        'color' => 'Gul',
-        'price' => '3000',
-        'img' => 'https://lh3.googleusercontent.com/u/0/d/1vg5Ac-cWYODUSe8YLHgVRufsYJhV0xom=w2940-h1554-iv1'
-    ],
-    [
-        'name' => 'Fiskespö',
-        'color' => 'Grön',
-        'price' => '3000',
-        'img' => 'https://lh3.googleusercontent.com/u/0/d/1vg5Ac-cWYODUSe8YLHgVRufsYJhV0xom=w2940-h1554-iv1'
+        'colors' => [
+            'black' => [
+                'images' => [
+                    'sko_black.png',
+                    'sko_black.gif'
+                ]
+            ],
+            'green' => [
+                'images' => [
+                    'sko_green.png',
+                    'sko_green.gif'
+                ]
+            ],
+            'brown' => [
+                'images' => [
+                    'sko_brown.png',
+                    'sko_brown.gif'
+                ]
+            ],
+        ]
     ],
     [
         'name' => 'Fiskespö',
-        'color' => 'Brun',
         'price' => '3000',
-        'img' => 'https://lh3.googleusercontent.com/u/0/d/1vg5Ac-cWYODUSe8YLHgVRufsYJhV0xom=w2940-h1554-iv1'
+        'colors' => [
+            'black' => [
+                'images' => [
+                    'fiskespo_black.png',
+                    'fiskespo_black.gif'
+                ]
+            ],
+            'green' => [
+                'images' => [
+                    'fiskespo_green.png',
+                    'fiskespo_green.gif'
+                ]
+            ],
+            'brown' => [
+                'images' => [
+                    'fiskespo_brown.png',
+                    'fiskespo_brown.gif'
+                ]
+            ],
+        ]
     ],
 ];
 

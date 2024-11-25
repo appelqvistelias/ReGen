@@ -10,24 +10,41 @@
         </hgroup>
         <div class="container">
             <?php foreach ($products as $product) : ?>
-                <article class="product">
-                    <img src="<?= $product['img']; ?>">
-                    <div class="product-inner-wrapper">
-                        <h3 class="product-name"><?= $product['name']; ?></h3>
-                        <h2 class="product-price"><?= $product['price']; ?>kr</h2>
-                        <div class="product-colors">
-                            <div class="color"></div>
-                            <div class="color"></div>
-                            <div class="color"></div>
-                        </div>
-                        <div class="product-add-btn">
-                            <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                        </div>
-                    </div><!-- product-inner-wrapper -->
-                </article>
+                <?php foreach ($product['colors'] as $color => $colorData) : ?>
+                    <article class="product">
+                        <!-- Huvudbilden för den valda färgen -->
+                        <img id="huvudbild-<?php echo $product['name'] . '-' . $color; ?>"
+                            src="img/<?php echo $colorData['images'][0]; ?>"
+                            alt="<?php echo $product['name'] . ' ' . $color; ?>"
+                            class="produkt-huvudbild"
+                            onclick="toggleImages('<?php echo $product['name'] . '-' . $color; ?>')">
+
+                        <img id="bild-<?php echo $product['name'] . '-' . $color; ?>"
+                            src="img/<?php echo $colorData['images'][1]; ?>"
+                            alt="Bild" class="produkt-bild" style="display: none;"
+                            onclick="toggleImages('<?php echo $product['name'] . '-' . $color; ?>')">
+
+                        <div class="product-inner-wrapper">
+                            <h3 class="product-name"><?= $product['name']; ?></h3>
+                            <h2 class="product-price"><?= $product['price']; ?>kr</h2>
+
+                            <!-- Färgalternativ (kan bytas med en knapp) -->
+                            <div class="product-colors">
+                                <?php foreach ($product['colors'] as $altColor => $altColorData) : ?>
+                                    <button class="color <?php echo $altColor; ?>" onclick="changeColor('<?php echo $product['name']; ?>', '<?php echo $color; ?>', '<?php echo $altColor; ?>')">
+                                    </button>
+                                <?php endforeach; ?>
+                            </div>
+
+                            <div class="product-add-btn">
+                                <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                            </div>
+                        </div><!-- product-inner-wrapper -->
+                    </article>
+                <?php endforeach; ?>
             <?php endforeach; ?>
         </div><!-- .container -->
-    </div><!-- . inner-wrapper -->
+    </div><!-- .inner-wrapper -->
 </section>
 
 <section id="materials">
@@ -65,22 +82,76 @@
         </hgroup>
         <div class="container">
             <?php foreach ($productsReverse as $product) : ?>
-                <article class="product">
-                    <img src="<?= $product['img']; ?>">
-                    <div class="product-inner-wrapper">
-                        <h3 class="product-name"><?= $product['name']; ?></h3>
-                        <h2 class="product-price"><?= $product['price']; ?>kr</h2>
-                        <div class="product-colors">
-                            <div class="color"></div>
-                            <div class="color"></div>
-                            <div class="color"></div>
-                        </div>
-                        <div class="product-add-btn">
-                            <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                        </div>
-                    </div><!-- product-inner-wrapper -->
-                </article>
+                <?php foreach ($product['colors'] as $color => $colorData) : ?>
+                    <article class="product">
+                        <!-- Huvudbilden för den valda färgen -->
+                        <img id="huvudbild-<?php echo $product['name'] . '-' . $color; ?>"
+                            src="img/<?php echo $colorData['images'][0]; ?>"
+                            alt="<?php echo $product['name'] . ' ' . $color; ?>"
+                            class="produkt-huvudbild"
+                            onclick="toggleImages('<?php echo $product['name'] . '-' . $color; ?>')">
+
+                        <img id="bild-<?php echo $product['name'] . '-' . $color; ?>"
+                            src="img/<?php echo $colorData['images'][1]; ?>"
+                            alt="Bild" class="produkt-bild" style="display: none;"
+                            onclick="toggleImages('<?php echo $product['name'] . '-' . $color; ?>')">
+
+                        <div class="product-inner-wrapper">
+                            <h3 class="product-name"><?= $product['name']; ?></h3>
+                            <h2 class="product-price"><?= $product['price']; ?>kr</h2>
+
+                            <!-- Färgalternativ (kan bytas med en knapp) -->
+                            <div class="product-colors">
+                                <?php foreach ($product['colors'] as $altColor => $altColorData) : ?>
+                                    <button class="color <?php echo $altColor; ?>" onclick="changeColor('<?php echo $product['name']; ?>', '<?php echo $color; ?>', '<?php echo $altColor; ?>')">
+                                    </button>
+                                <?php endforeach; ?>
+                            </div>
+
+                            <div class="product-add-btn">
+                                <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                            </div>
+                        </div><!-- product-inner-wrapper -->
+                    </article>
+                <?php endforeach; ?>
             <?php endforeach; ?>
         </div><!-- .container -->
     </div><!-- . inner-wrapper -->
 </section>
+
+<script>
+    // Funktion toggla mellan bilder
+    function toggleImages(produktId) {
+        const huvudbild = document.getElementById('huvudbild-' + produktId);
+        const bild = document.getElementById('bild-' + produktId);
+
+        // Toggla visibiliteten mellan bilderna
+        const isVisible = huvudbild.style.display !== 'none';
+        huvudbild.style.display = isVisible ? 'none' : 'block';
+        bild.style.display = isVisible ? 'block' : 'none';
+    }
+
+    // Funktion för att byta färg på bilder
+    function changeColor(produktNamnet, valdFarg, nyFarg) {
+        // Hämta produktdata från PHP och konvertera till JavaScript-objekt
+        const produktData = <?php echo json_encode($products); ?>;
+        // Hitta rätt produkt i arrayen
+        const valdProdukt = produktData.find(p => p.name === produktNamnet);
+        if (!valdProdukt) {
+            console.error("Produkt ej hittad");
+            return;
+        }
+        // Hitta rätt färg (nyFarg) i produktens färger
+        const valdFargData = valdProdukt.colors[nyFarg];
+        // Uppdatera huvudbilden för produkten
+        const huvudbild = document.getElementById('huvudbild-' + produktNamnet + '-' + valdFarg);
+        if (huvudbild) {
+            huvudbild.src = 'img/' + valdFargData.images[0];
+        }
+        // Uppdatera andra bilder
+        const bild = document.getElementById('bild-' + produktNamnet + '-' + valdFarg);
+        if (bild) {
+            bild.src = 'img/' + valdFargData.images[1];
+        }
+    }
+</script>
