@@ -25,7 +25,6 @@
             <img class="top-banner-logo" src="img/regen-logo-inverted.svg" alt="regen logo"> <!-- Visable on mobile -->
             <p class="top-banner-paragraph">Delta i vår hållbarhetresa!</p> <!-- Visable on desktop -->
         </div>
-
         <nav>
             <div class="menu-mobile"> <!-- Visable on mobile -->
                 <div class="menu-icon" id="hamburger-menu"></div>

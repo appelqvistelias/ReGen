@@ -195,12 +195,9 @@ input::placeholder {
 
         nav {
             margin-top: 5.2rem;
+            padding-left: 12rem;
+            padding-right: 12rem;
         }
-    }
-
-    nav {
-        padding-left: 12rem;
-        padding-right: 12rem;
     }
 
     .menu-desktop {
