@@ -151,15 +151,18 @@ input::placeholder {
 }
 
 .cta-button {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    width: 22.1rem;
-    height: 4.2rem;
+    padding: .8rem 3.2rem;
     background-color: var(--white);
     background: var(--orange);
     border-radius: 0.4rem;
+
+    &:hover {
+        background: var(--dark-orange);
+    }
 }
 
 @keyframes scroll-down {

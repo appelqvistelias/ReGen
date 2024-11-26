@@ -8,7 +8,7 @@
             <h2>Mode som ReGenererar</h2>
             <p>Utforska en hållbar framtid där stil möter ansvar. Regen skapar produkter som inte bara inspirerar utan också gör skillnad.</p>
             <a href="#cta" class="cta-button">
-                Hållbarhet
+                Läs mer om vår hållbarhet
                 <img src="img/arrow-up-right.svg">
             </a>
         </div>

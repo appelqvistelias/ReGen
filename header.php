@@ -72,7 +72,7 @@
                 <p class="hero-paragraph">Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten.</p>
                 <div class="cta-button">
                     <a href="#cta">
-                        <p>Vår påverkan</p>
+                        <p>Utforska kollektionen</p>
                     </a>
                     <img src="img/arrow-up-right.svg">
                 </div>

@@ -132,6 +132,8 @@ section#materials {
         width: 100%;
         aspect-ratio: 1;
         padding-bottom: 6.4rem;
+        position: sticky;
+        top: 20rem;
     }
 
     h2 {
