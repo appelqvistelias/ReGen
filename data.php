@@ -59,7 +59,7 @@ $products_soon = [
         'colors' => [
             'yellow' => [
                 'images' => [
-                    'sovsack_yellow.jpg',
+                    'sovsack_yellow.png',
                     'sovsack_yellow_2.jpg'
                 ]
             ],
