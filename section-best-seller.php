@@ -6,7 +6,7 @@
         </hgroup>
 
         <div class="arrows">
-            <img src="/img/chevron-left.svg" class="prev-btn" alt="Previous">
+            <img src="img/chevron-left.svg" class="prev-btn" alt="Previous">
             <div class="container">
                 <?php foreach ($products as $product) : ?>
                     <?php foreach ($product['colors'] as $color => $colorData) : ?>
@@ -36,7 +36,7 @@
                                 </div>
 
                                 <div class="product-add-btn">
-                                    <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                                    <img src="img/plus.svg" alt="add to cart symbol" /> Förbeställ
                                 </div>
                             </div><!-- product-inner-wrapper -->
                         </article>
@@ -44,7 +44,7 @@
                 <?php endforeach; ?>
             </div><!-- .container -->
 
-            <img src="/img/chevron-right.svg" class="next-btn" alt="Next">
+            <img src="img/chevron-right.svg" class="next-btn" alt="Next">
         </div> <!-- .arrow -->
     </div><!-- .inner-wrapper -->
 </section>
@@ -52,7 +52,7 @@
 <section id="materials">
     <div class="inner-wrapper">
         <article>
-            <img src="/img/tekniska_element.png" alt="" id="materials-image" />
+            <img src="img/tekniska_element.png" alt="" id="materials-image" />
             <div class="text">
                 <h2>Innovativa Material för en Hållbar Framtid</h2>
                 <h3>Vattenavvisande utan skadliga kemikalier</h3>
@@ -66,7 +66,7 @@
                 <p>ReGen står för att kombinera hållbarhet med prestanda, så att du kan upptäcka världen med lättare samvete och en starkare koppling till naturen.</p>
             </div>
             <div class="read-more">
-                <a href="" id="read-more-btn">Läs mer <img src="/img/arrow-down.svg" alt="pil nedåt" class="icon" /></a>
+                <a href="" id="read-more-btn">Läs mer <img src="img/arrow-down.svg" alt="pil nedåt" class="icon" /></a>
             </div>
         </article>
     </div><!-- .inner-wrapper -->
@@ -79,7 +79,7 @@
             <h2>Kommer 2025</h2>
         </hgroup>
         <div class="arrows">
-            <img src="/img/chevron-left.svg" class="prev-btn" alt="Previous">
+            <img src="img/chevron-left.svg" class="prev-btn" alt="Previous">
             <div class="container">
                 <?php foreach ($products_soon as $product) : ?>
                     <?php foreach ($product['colors'] as $color => $colorData) : ?>
@@ -109,14 +109,14 @@
                                 </div>
 
                                 <div class="product-add-btn">
-                                    <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                                    <img src="img/plus.svg" alt="add to cart symbol" /> Förbeställ
                                 </div>
                             </div><!-- product-inner-wrapper -->
                         </article>
                     <?php endforeach; ?>
                 <?php endforeach; ?>
             </div><!-- .container -->
-            <img src="/img/chevron-right.svg" class="next-btn" alt="Next">
+            <img src="img/chevron-right.svg" class="next-btn" alt="Next">
         </div><!-- .arrows -->
     </div><!-- . inner-wrapper -->
 </section>
