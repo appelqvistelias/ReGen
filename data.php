@@ -2,8 +2,8 @@
 
 $products = [
     [
-        'name' => 'Mössa',
-        'price' => '3000',
+        'name' => 'Mössa TerraTop',
+        'price' => '250',
         'colors' => [
             'yellow' => [
                 'images' => [
@@ -26,7 +26,7 @@ $products = [
         ]
     ],
     [
-        'name' => 'Sko',
+        'name' => 'Sko GreenStep',
         'price' => '3000',
         'colors' => [
             'black' => [
@@ -54,8 +54,8 @@ $products = [
 
 $products_soon = [
     [
-        'name' => 'Sovsäck',
-        'price' => '3000',
+        'name' => 'Sovsäck EverRest',
+        'price' => '3760',
         'colors' => [
             'yellow' => [
                 'images' => [
@@ -78,8 +78,8 @@ $products_soon = [
         ]
     ],
     [
-        'name' => 'Fiskespö',
-        'price' => '3000',
+        'name' => 'Fiskespö NatureC',
+        'price' => '7500',
         'colors' => [
             'black' => [
                 'images' => [
