@@ -256,3 +256,13 @@ section#materials {
         }
     }
 }
+
+
+@media only screen and (min-width: 1310px) {
+    section#categories .arrows {
+        .prev-btn,
+        .next-btn {
+            display: none;
+        }
+    }
+}
