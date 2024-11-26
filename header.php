@@ -81,6 +81,6 @@
                     <p class="tiny">Scrolla</p>
                 </div>
             </div>
-            <img src="/img/hero.jpeg" class="section-bg" alt="" />
+            <img src="img/hero.jpeg" class="section-bg" alt="" />
         </section>
     </header>

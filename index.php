@@ -12,7 +12,7 @@
                 <img src="img/arrow-up-right.svg">
             </a>
         </div>
-        <img src="/img/sustainability.jpeg" class="section-bg" alt="" />
+        <img src="img/sustainability.jpeg" class="section-bg" alt="" />
     </section>
 
     <?php require_once(__DIR__ . "/section-best-seller.php"); ?>
@@ -20,19 +20,19 @@
     <section id="icons">
         <div class="inner-wrapper">
             <div class="item">
-                <div class="icon"><img src="/img/globe-orange.svg"></div>
+                <div class="icon"><img src="img/globe-orange.svg"></div>
                 <p>Miljövänligt, hållbart och redo för naturen</p>
             </div>
             <div class="item">
-                <div class="icon"><img src="/img/check.svg"></div>
+                <div class="icon"><img src="img/check.svg"></div>
                 <p>Återvunnet material, hög kvalitet</p>
             </div>
             <div class="item">
-                <div class="icon"><img src="/img/leaf.svg"></div>
+                <div class="icon"><img src="img/leaf.svg"></div>
                 <p>Minimal miljöpåverkan maximal hållbarhet</p>
             </div>
             <div class="item">
-                <div class="icon"><img src="/img/clock.svg"></div>
+                <div class="icon"><img src="img/clock.svg"></div>
                 <p>Gjort för äventyr, byggt för framtiden</p>
             </div>
         </div>
@@ -48,7 +48,7 @@
                 <button class="email-signup-btn"></button>
             </div>
         </div>
-        <img src="/img/newsletter.jpeg" class="section-bg" alt="" />
+        <img src="img/newsletter.jpeg" class="section-bg" alt="" />
     </section>
 </main>
 
