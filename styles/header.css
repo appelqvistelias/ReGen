@@ -165,21 +165,8 @@ input::placeholder {
     }
 }
 
-@keyframes scroll-down {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(10px);
-    }
-}
-
 #scroll {
     display: none;
-
-    img {
-        animation: 1.5s scroll-down infinite ease-in-out;
-    }
 }
 
 @media only screen and (min-width: 1024px) {

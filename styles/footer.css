@@ -12,15 +12,6 @@ footer {
     }
 }
 
-@keyframes scroll-up {
-    0%, 100% {
-        transform: translateY(0);
-    }
-    30% {
-        transform: translateY(-5px);
-    }
-}
-
 #back-to-top {
     display: flex;
     align-items: center;
@@ -28,11 +19,6 @@ footer {
     gap: 1.6rem;
     padding-bottom: 4.8rem;
     cursor: pointer;
-
-    img {
-        width: 2.4rem;
-        animation: 1.5s scroll-up ease-in infinite;
-    }
 }
 
 .details-footer {
