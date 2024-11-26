@@ -23,7 +23,7 @@
 }
 
 body {
-    height: 100vh;
+    min-width: 39rem;
     background: var(--white);
 }
 
