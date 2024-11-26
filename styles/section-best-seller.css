@@ -10,14 +10,26 @@ section#new-articles {
 hgroup {
     display: flex;
     justify-content: space-between;
-
-    .arrows {
-        .prev-btn,
-        .next-btn {
-            width: 3.2rem;
-        }
-    }
 }
+
+.arrows {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+    .prev-btn,
+    .next-btn {
+        position: absolute;
+        width: 3.2rem;
+        z-index: 100;
+    }
+    .prev-btn {
+        left: 0;
+    }
+    .next-btn {
+        right: 0;
+    }
+
 
 .container {
     overflow-y: auto;
