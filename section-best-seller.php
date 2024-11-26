@@ -77,47 +77,47 @@
     <div class="inner-wrapper">
         <hgroup>
             <h2>Kommer 2025</h2>
-            <div class="arrows">
-                <img src="/img/chevron-left.svg" class="prev-btn" alt="Previous">
-                <img src="/img/chevron-right.svg" class="next-btn" alt="Next">
-            </div>
         </hgroup>
-        <div class="container">
-            <?php foreach ($products_soon as $product) : ?>
-                <?php foreach ($product['colors'] as $color => $colorData) : ?>
-                    <article class="product">
-                        <!-- Huvudbilden för den valda färgen -->
-                        <img id="huvudbild-<?php echo $product['name'] . '-' . $color; ?>"
-                            src="img/<?php echo $colorData['images'][0]; ?>"
-                            alt="<?php echo $product['name'] . ' ' . $color; ?>"
-                            class="produkt-huvudbild"
-                            onclick="toggleImages('<?php echo $product['name'] . '-' . $color; ?>')">
+        <div class="arrows">
+            <img src="/img/chevron-left.svg" class="prev-btn" alt="Previous">
+            <div class="container">
+                <?php foreach ($products_soon as $product) : ?>
+                    <?php foreach ($product['colors'] as $color => $colorData) : ?>
+                        <article class="product">
+                            <!-- Huvudbilden för den valda färgen -->
+                            <img id="huvudbild-<?php echo $product['name'] . '-' . $color; ?>"
+                                src="img/<?php echo $colorData['images'][0]; ?>"
+                                alt="<?php echo $product['name'] . ' ' . $color; ?>"
+                                class="produkt-huvudbild"
+                                onclick="toggleImages('<?php echo $product['name'] . '-' . $color; ?>')">
 
-                        <img id="bild-<?php echo $product['name'] . '-' . $color; ?>"
-                            src="img/<?php echo $colorData['images'][1]; ?>"
-                            alt="Bild" class="produkt-bild" style="display: none;"
-                            onclick="toggleImages('<?php echo $product['name'] . '-' . $color; ?>')">
+                            <img id="bild-<?php echo $product['name'] . '-' . $color; ?>"
+                                src="img/<?php echo $colorData['images'][1]; ?>"
+                                alt="Bild" class="produkt-bild" style="display: none;"
+                                onclick="toggleImages('<?php echo $product['name'] . '-' . $color; ?>')">
 
-                        <div class="product-inner-wrapper">
-                            <h3 class="product-name"><?= $product['name']; ?></h3>
-                            <h2 class="product-price"><?= $product['price']; ?>kr</h2>
+                            <div class="product-inner-wrapper">
+                                <h3 class="product-name"><?= $product['name']; ?></h3>
+                                <h2 class="product-price"><?= $product['price']; ?>kr</h2>
 
-                            <!-- Färgalternativ (kan bytas med en knapp) -->
-                            <div class="product-colors">
-                                <?php foreach ($product['colors'] as $altColor => $altColorData) : ?>
-                                    <button class="color <?php echo $altColor; ?>" onclick="changeColor('<?php echo $product['name']; ?>', '<?php echo $color; ?>', '<?php echo $altColor; ?>')">
-                                    </button>
-                                <?php endforeach; ?>
-                            </div>
+                                <!-- Färgalternativ (kan bytas med en knapp) -->
+                                <div class="product-colors">
+                                    <?php foreach ($product['colors'] as $altColor => $altColorData) : ?>
+                                        <button class="color <?php echo $altColor; ?>" onclick="changeColor('<?php echo $product['name']; ?>', '<?php echo $color; ?>', '<?php echo $altColor; ?>')">
+                                        </button>
+                                    <?php endforeach; ?>
+                                </div>
 
-                            <div class="product-add-btn">
-                                <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
-                            </div>
-                        </div><!-- product-inner-wrapper -->
-                    </article>
+                                <div class="product-add-btn">
+                                    <img src="/img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                                </div>
+                            </div><!-- product-inner-wrapper -->
+                        </article>
+                    <?php endforeach; ?>
                 <?php endforeach; ?>
-            <?php endforeach; ?>
-        </div><!-- .container -->
+            </div><!-- .container -->
+            <img src="/img/chevron-right.svg" class="next-btn" alt="Next">
+        </div><!-- .arrows -->
     </div><!-- . inner-wrapper -->
 </section>
 
