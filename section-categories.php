@@ -9,11 +9,11 @@
         </hgroup>
         <div class="container">
             <div class="product item-card">
-                <img src="/img/c-tent.jpeg" alt="Kategori tält" />
+                <img src="/img/c-tent.jpg" alt="Kategori tält" />
                 <p>Tält</p>
             </div>
             <div class="product item-card">
-                <img src="/img/c-mossor.jpeg" alt="Kategori mössor" />
+                <img src="/img/c-mossor.jpg" alt="Kategori mössor" />
                 <p>Mössor</p>
             </div>
             <div class="product item-card">
@@ -25,7 +25,7 @@
                 <p>Fiskespön</p>
             </div>
             <div class="product item-card">
-                <img src="/img/c-skor.jpeg" alt="Kategori skor" />
+                <img src="/img/c-skor.png" alt="Kategori skor" />
                 <p>Skor</p>
             </div>
         </div><!-- .container -->
