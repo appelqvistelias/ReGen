@@ -51,15 +51,38 @@
             // Hämta bredden på produkten för att veta hur mycket vi ska scrolla
             const itemWidth = container.querySelector('.product').offsetWidth;
 
+            // *** NEW FUNCTION TO ADJUST SCROLL POSITION TO CLOSEST PRODUCT ***
+            const adjustScrollPosition = () => {
+                const scrollPosition = container.scrollLeft;
+                const nearestItemIndex = Math.round(scrollPosition / itemWidth); // Find closest product
+                const targetScrollPosition = nearestItemIndex * itemWidth; // Target for scroll
+
+                // Scroll to exact position
+                container.scrollTo({
+                    left: targetScrollPosition,
+                    behavior: 'smooth'
+                })
+            };
+
+            // *** END OF NEW FUNCTION ***
+
             // Lägg till eventlyssnare för prev-knappen (skrolla vänster)
             prevBtn.addEventListener('click', () => {
                 container.scrollLeft -= itemWidth; // Skrolla till vänster
+                setTimeout(adjustScrollPosition, 300); // *** PART OF NEW FUNCTION ***
             });
 
             // Lägg till eventlyssnare för next-knappen (skrolla höger)
             nextBtn.addEventListener('click', () => {
                 container.scrollLeft += itemWidth; // Skrolla till höger
+                setTimeout(adjustScrollPosition, 300); // *** PART OF NEW FUNCTION ***
             });
+
+            // *** PART OF NEW FUNCTION ***
+            container.addEventListener('scroll', () => {
+                clearTimeout(container.scrollTimeout); // Avoid running multiple times
+                container.scrollTimeout = setTimeout(adjustScrollPosition, 150); // Adjust after 150ms paus
+            })
         });
     }
     setupScrollNavigation('#categories');
