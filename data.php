@@ -57,7 +57,7 @@ $products_soon = [
         'name' => 'Sovsäck EverRest',
         'price' => '3760',
         'colors' => [
-            'yellow' => [
+            'black' => [
                 'images' => [
                     'sovsack_black.png',
                     'sovsack_black_2.png'
