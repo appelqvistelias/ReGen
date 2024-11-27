@@ -19,7 +19,7 @@
                     <p>Sovsäckar</p>
                 </div>
                 <div class="product item-card">
-                    <img src="img/c-fiskespo.jpeg" alt="Kategori fiskespön" />
+                    <img src="img/c-fiskespo.png" alt="Kategori fiskespön" />
                     <p>Fiskespön</p>
                 </div>
                 <div class="product item-card">
