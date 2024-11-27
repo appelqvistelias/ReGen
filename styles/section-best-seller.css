@@ -61,8 +61,8 @@ hgroup {
             width: 100%;
             height: 19.1rem;
             object-fit: cover;
-            background-color: var(--gray2);
-
+            background: rgb(200,200,200);
+            background: radial-gradient(circle, rgba(200,200,200,1) 0%, rgba(240,240,240,1) 100%);
         }
 
         .product-inner-wrapper {
