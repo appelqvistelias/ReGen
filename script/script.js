@@ -86,3 +86,37 @@
         huvudbild.style.display = isVisible ? 'none' : 'block';
         bild.style.display = isVisible ? 'block' : 'none';
     }
+
+// *** Change add to cart symbol ***
+const addToCartImage = document.querySelector('.add-to-cart');
+
+const addToCartPlus = 'img/add-to-cart-plus.svg';
+const addToCartPlusHover = 'img/add-to-cart-plus-hover.svg';
+const addToCartCheck = 'img/add-to-cart-check.svg';
+const addToCartCross = 'img/add-to-cart-cross.svg';
+
+addToCartImage.addEventListener('mouseover', () => {
+    if (addToCartImage.src.endsWith(addToCartPlus)) {
+        addToCartImage.src = addToCartPlusHover;
+    } else if (addToCartImage.src.endsWith(addToCartCheck)) {
+        addToCartImage.src = addToCartCross;
+    }
+});
+
+addToCartImage.addEventListener('mouseleave', () => {
+    if (addToCartImage.src.endsWith(addToCartPlusHover)) {
+        addToCartImage.src = addToCartPlus;
+    } else if (addToCartImage.src.endsWith(addToCartCross)) {
+        addToCartImage.src = addToCartCheck;
+    }
+});
+
+addToCartImage.addEventListener('click', () => {
+    if (addToCartImage.src.endsWith(addToCartPlusHover)) {
+        addToCartImage.src = addToCartCheck;
+    } else if (addToCartImage.src.endsWith(addToCartCross)) {
+        addToCartImage.src = addToCartPlus;
+    }  else if (addToCartImage.src.endsWith(addToCartCheck)) {
+        addToCartImage.src = addToCartPlus;
+    }
+});
