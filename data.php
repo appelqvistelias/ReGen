@@ -7,19 +7,19 @@ $products = [
         'colors' => [
             'yellow' => [
                 'images' => [
-                    'mossa_yellow.jpg',
+                    'mossa_yellow.png',
                     'mossa_yellow.gif'
                 ]
             ],
             'green' => [
                 'images' => [
-                    'mossa_green.jpg',
+                    'mossa_green.png',
                     'mossa_green.gif'
                 ]
             ],
             'brown' => [
                 'images' => [
-                    'mossa_brown.jpg',
+                    'mossa_brown.png',
                     'mossa_brown.gif'
                 ]
             ],
@@ -59,20 +59,20 @@ $products_soon = [
         'colors' => [
             'yellow' => [
                 'images' => [
-                    'sovsack_yellow.png',
-                    'sovsack_yellow_2.jpg'
+                    'sovsack_black.png',
+                    'sovsack_black_2.png'
                 ]
             ],
             'green' => [
                 'images' => [
-                    'sovsack_green.jpg',
-                    'sovsack_green_2.jpg'
+                    'sovsack_green.png',
+                    'sovsack_green_2.png'
                 ]
             ],
             'brown' => [
                 'images' => [
-                    'sovsack_brown.jpg',
-                    'sovsack_brown_2.jpg'
+                    'sovsack_brown.png',
+                    'sovsack_brown_2.png'
                 ]
             ],
         ]
