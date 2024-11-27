@@ -88,12 +88,14 @@
     }
 
 // *** Change add to cart symbol ***
-const addToCartImage = document.querySelector('.add-to-cart');
+const addToCartImages = document.querySelectorAll('.add-to-cart');
 
 const addToCartPlus = 'img/add-to-cart-plus.svg';
 const addToCartPlusHover = 'img/add-to-cart-plus-hover.svg';
 const addToCartCheck = 'img/add-to-cart-check.svg';
 const addToCartCross = 'img/add-to-cart-cross.svg';
+
+addToCartImages.forEach((addToCartImage) => {
 
 addToCartImage.addEventListener('mouseover', () => {
     if (addToCartImage.src.endsWith(addToCartPlus)) {
@@ -119,4 +121,4 @@ addToCartImage.addEventListener('click', () => {
     }  else if (addToCartImage.src.endsWith(addToCartCheck)) {
         addToCartImage.src = addToCartPlus;
     }
-});
+})});
