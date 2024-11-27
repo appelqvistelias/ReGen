@@ -36,7 +36,7 @@
                                 </div>
 
                                 <div class="product-add-btn">
-                                    <img src="img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                                    <img class="add-to-cart" src="img/add-to-cart-plus.svg" alt="add to cart symbol" /> Förbeställ
                                 </div>
                             </div><!-- product-inner-wrapper -->
                         </article>
@@ -109,7 +109,7 @@
                                 </div>
 
                                 <div class="product-add-btn">
-                                    <img src="img/plus.svg" alt="add to cart symbol" /> Förbeställ
+                                    <img class="add-to-cart" src="img/add-to-cart-plus.svg" alt="add to cart symbol" /> Förbeställ
                                 </div>
                             </div><!-- product-inner-wrapper -->
                         </article>

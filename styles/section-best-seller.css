@@ -105,8 +105,6 @@ hgroup {
             font-size: 1.8rem;
 
             img {
-                background: var(--green);
-                padding: 0.8rem;
                 border-radius: 0.25rem;
                 width: 2.4rem;
                 height: 2.4rem;
