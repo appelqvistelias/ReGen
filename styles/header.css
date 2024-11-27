@@ -176,6 +176,7 @@ input::placeholder {
 
         .top-banner {
             height: 5.2rem;
+            background-color: var(--dark-green);
         }
 
         .top-banner-paragraph {
@@ -186,6 +187,7 @@ input::placeholder {
             margin-top: 5.2rem;
             padding-left: 12rem;
             padding-right: 12rem;
+            background-color: var(--green);
         }
     }
 
