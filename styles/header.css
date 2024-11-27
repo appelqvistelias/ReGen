@@ -21,7 +21,6 @@ header .top-banner {
     background: var(--green);
 }
 
-
 .top-banner {
     display: flex;
     justify-content: center;
